@@ -60,7 +60,7 @@
     <mesh name="link0_3" content_type="model/obj" file="/home/wyp/.cache/robot_descriptions/mujoco_menagerie/franka_emika_panda/assets/link0_3.obj"/>
     <mesh name="link0_4" content_type="model/obj" file="/home/wyp/.cache/robot_descriptions/mujoco_menagerie/franka_emika_panda/assets/link0_4.obj"/>
     <mesh name="link0_5" content_type="model/obj" file="/home/wyp/.cache/robot_descriptions/mujoco_menagerie/franka_emika_panda/assets/link0_5.obj"/>
-    <mesh name="link0_7" content_type="model/obj" file="/home/wyp/.cache/robot_descriptions/mujoco_menagerie/franka_emika_panda/assets/link0_7.obj"/>
+    <mesh name="link0_7" content_type="model/obj" file="/home/wyp/.cachetest_for_rd.py/robot_descriptions/mujoco_menagerie/franka_emika_panda/assets/link0_7.obj"/>
     <mesh name="link0_8" content_type="model/obj" file="/home/wyp/.cache/robot_descriptions/mujoco_menagerie/franka_emika_panda/assets/link0_8.obj"/>
     <mesh name="link0_9" content_type="model/obj" file="/home/wyp/.cache/robot_descriptions/mujoco_menagerie/franka_emika_panda/assets/link0_9.obj"/>
     <mesh name="link0_10" content_type="model/obj" file="/home/wyp/.cache/robot_descriptions/mujoco_menagerie/franka_emika_panda/assets/link0_10.obj"/>
