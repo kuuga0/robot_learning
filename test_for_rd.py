@@ -1,13 +1,11 @@
 import mujoco
 import mujoco.viewer
 import time
-import glfw
-from robot_descriptions import panda_mj_description
-from robot_descriptions.loaders.mujoco import load_robot_description
+# from robot_descriptions import panda_mj_description
+# from robot_descriptions.loaders.mujoco import load_robot_description
 
-model =mujoco.MjModel.from_xml_path(panda_mj_description.MJCF_PATH)
+model =mujoco.MjModel.from_xml_path("simple.xml")
 # model = load_robot_description("panda_mj_description")
-print(panda_mj_description.MJCF_PATH)
 data = mujoco.MjData(model)
 
 # mujoco.viewer.launch(model, data)
@@ -18,6 +16,8 @@ try:
         while viewer.is_running() and time.time()-s<30:
             step_time = time.time()
             mujoco.mj_step(model, data)
+            now=time.time()
+            print(f"time: {now-s:.2f}    height: {data.qpos[2]:.4f}")
             with viewer.lock():
                 viewer.opt.flags[mujoco.mjtVisFlag.mjVIS_CONTACTPOINT] = (int)(data.time%2)
             viewer.sync()
