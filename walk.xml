@@ -26,9 +26,10 @@
             <joint name="rootz" type="slide" pos="0 0 0" axis="0 0 1" limited="false"/>
             <joint name="rooty" type="hinge" pos="0 0 0" axis="0 1 0" limited="false"/>
             <geom name="torso_geom" type="capsule" fromto="0 0 0.2 0 0 -0.2" size="0.05"/>
+            <geom name="pitch_geom" type="capsule" fromto="0 0.2 -0.2 0 -0.2 -0.2" size="0.05"/>
             
             <!-- 右腿 -->
-            <body name="thigh" pos="0 0 -0.2">
+            <body name="thigh" pos="0 -0.2 -0.2">
                 <joint name="thigh_joint" type="hinge" pos="0 0 0" axis="0 -1 0" range="-120 60"/>
                 <geom name="thigh_geom" type="capsule" fromto="0 0 0 0 0 -0.45" size="0.05"/>
                 <body name="leg" pos="0 0 -0.45">
@@ -42,7 +43,7 @@
             </body>
             
             <!-- 左腿 -->
-            <body name="thigh_left" pos="0 0 -0.2">
+            <body name="thigh_left" pos="0 0.2 -0.2">
                 <joint name="thigh_left_joint" type="hinge" pos="0 0 0" axis="0 -1 0" range="-120 60"/>
                 <geom name="thigh_left_geom" type="capsule" fromto="0 0 0 0 0 -0.45" size="0.05"/>
                 <body name="leg_left" pos="0 0 -0.45">
