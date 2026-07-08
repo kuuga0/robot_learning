@@ -1,0 +1,15 @@
+<mujoco model = "ip" >
+    <compiler angle="degree" />
+    <option timestep="0.01" gravity="0 0 -9.81" iterations="50" integrator="RK4" />
+    <worldbody>
+        <light name="light" pos="0 0 10" dir="0 0 -1" />
+        <body name="pole" pos="0 0 1">
+            <joint name="hinge" type="hinge" pos="0 0 0" axis="0 1 0" range="-180 180" damping="0.1" />
+            <geom name="pole_geom" type="capsule" fromto="0 0 0 0 0 1" size="0.05" rgba="1 0 0 1" />
+            <geom name="mass_geom" type="sphere" pos="0 0 1" size="0.1" rgba="0 1 0 1" mass="1" />
+        </body>
+    </worldbody>
+    <actuator>
+        <motor name="hinge_motor" joint="hinge" ctrlrange="-10 10" />
+    </actuator>
+</mujoco>
