@@ -1,0 +1,6 @@
+[console_scripts]
+book_thread = demo_python_pkg.book_thread:main
+hero_node = demo_python_pkg.person:main
+node_py = demo_python_pkg.node_py:main
+writer_node = demo_python_pkg.writer:main
+
