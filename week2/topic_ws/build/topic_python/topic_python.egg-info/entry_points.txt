@@ -1,0 +1,3 @@
+[console_scripts]
+novel_publisher = topic_python.novel_pub_node:main
+
