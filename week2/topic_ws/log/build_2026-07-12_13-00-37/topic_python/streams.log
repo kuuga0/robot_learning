@@ -1,0 +1,42 @@
+[0.438s] Invoking command in '/home/wyp/test/robot_learning/week2/topic_ws/src/topic_python': CONDA_PROMPT_MODIFIER=(robopy) PYTHONPATH=/home/wyp/test/robot_learning/week2/topic_ws/build/topic_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/topic_python build --build-base /home/wyp/test/robot_learning/week2/topic_ws/build/topic_python/build install --record /home/wyp/test/robot_learning/week2/topic_ws/build/topic_python/install.log --install-scripts $base/lib/topic_python --single-version-externally-managed install_data
+[0.611s] running egg_info
+[0.612s] creating ../../build/topic_python/topic_python.egg-info
+[0.612s] writing ../../build/topic_python/topic_python.egg-info/PKG-INFO
+[0.612s] writing dependency_links to ../../build/topic_python/topic_python.egg-info/dependency_links.txt
+[0.612s] writing entry points to ../../build/topic_python/topic_python.egg-info/entry_points.txt
+[0.613s] writing requirements to ../../build/topic_python/topic_python.egg-info/requires.txt
+[0.613s] writing top-level names to ../../build/topic_python/topic_python.egg-info/top_level.txt
+[0.613s] writing manifest file '../../build/topic_python/topic_python.egg-info/SOURCES.txt'
+[0.614s] reading manifest file '../../build/topic_python/topic_python.egg-info/SOURCES.txt'
+[0.614s] adding license file 'LICENSE'
+[0.615s] writing manifest file '../../build/topic_python/topic_python.egg-info/SOURCES.txt'
+[0.615s] running build
+[0.615s] running build_py
+[0.615s] creating /home/wyp/test/robot_learning/week2/topic_ws/build/topic_python/build
+[0.615s] creating /home/wyp/test/robot_learning/week2/topic_ws/build/topic_python/build/lib
+[0.615s] creating /home/wyp/test/robot_learning/week2/topic_ws/build/topic_python/build/lib/topic_python
+[0.615s] copying topic_python/novel_sub_node.py -> /home/wyp/test/robot_learning/week2/topic_ws/build/topic_python/build/lib/topic_python
+[0.615s] copying topic_python/novel_pub_node.py -> /home/wyp/test/robot_learning/week2/topic_ws/build/topic_python/build/lib/topic_python
+[0.616s] copying topic_python/__init__.py -> /home/wyp/test/robot_learning/week2/topic_ws/build/topic_python/build/lib/topic_python
+[0.616s] running install
+[0.616s] running install_lib
+[0.617s] creating /home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/lib/python3.10/site-packages/topic_python
+[0.617s] copying /home/wyp/test/robot_learning/week2/topic_ws/build/topic_python/build/lib/topic_python/novel_sub_node.py -> /home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/lib/python3.10/site-packages/topic_python
+[0.617s] copying /home/wyp/test/robot_learning/week2/topic_ws/build/topic_python/build/lib/topic_python/novel_pub_node.py -> /home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/lib/python3.10/site-packages/topic_python
+[0.617s] copying /home/wyp/test/robot_learning/week2/topic_ws/build/topic_python/build/lib/topic_python/__init__.py -> /home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/lib/python3.10/site-packages/topic_python
+[0.617s] byte-compiling /home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/lib/python3.10/site-packages/topic_python/novel_sub_node.py to novel_sub_node.cpython-310.pyc
+[0.618s] byte-compiling /home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/lib/python3.10/site-packages/topic_python/novel_pub_node.py to novel_pub_node.cpython-310.pyc
+[0.619s] byte-compiling /home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/lib/python3.10/site-packages/topic_python/__init__.py to __init__.cpython-310.pyc
+[0.619s] running install_data
+[0.619s] creating /home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/share/ament_index
+[0.619s] creating /home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/share/ament_index/resource_index
+[0.619s] creating /home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/share/ament_index/resource_index/packages
+[0.619s] copying resource/topic_python -> /home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/share/ament_index/resource_index/packages
+[0.619s] copying package.xml -> /home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/share/topic_python
+[0.619s] running install_egg_info
+[0.621s] Copying ../../build/topic_python/topic_python.egg-info to /home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/lib/python3.10/site-packages/topic_python-0.0.0-py3.10.egg-info
+[0.622s] running install_scripts
+[0.640s] Installing novel_publisher script to /home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/lib/topic_python
+[0.640s] Installing novel_subscriber script to /home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/lib/topic_python
+[0.640s] writing list of installed files to '/home/wyp/test/robot_learning/week2/topic_ws/build/topic_python/install.log'
+[0.667s] Invoked command in '/home/wyp/test/robot_learning/week2/topic_ws/src/topic_python' returned '0': CONDA_PROMPT_MODIFIER=(robopy) PYTHONPATH=/home/wyp/test/robot_learning/week2/topic_ws/build/topic_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/topic_python build --build-base /home/wyp/test/robot_learning/week2/topic_ws/build/topic_python/build install --record /home/wyp/test/robot_learning/week2/topic_ws/build/topic_python/install.log --install-scripts $base/lib/topic_python --single-version-externally-managed install_data

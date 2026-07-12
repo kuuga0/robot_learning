@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/status_pub/status_pub.egg-info
+writing ../../build/status_pub/status_pub.egg-info/PKG-INFO
+writing dependency_links to ../../build/status_pub/status_pub.egg-info/dependency_links.txt
+writing entry points to ../../build/status_pub/status_pub.egg-info/entry_points.txt
+writing requirements to ../../build/status_pub/status_pub.egg-info/requires.txt
+writing top-level names to ../../build/status_pub/status_pub.egg-info/top_level.txt
+writing manifest file '../../build/status_pub/status_pub.egg-info/SOURCES.txt'
+reading manifest file '../../build/status_pub/status_pub.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/status_pub/status_pub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wyp/test/robot_learning/week2/practice_ws/build/status_pub/build
+creating /home/wyp/test/robot_learning/week2/practice_ws/build/status_pub/build/lib
+creating /home/wyp/test/robot_learning/week2/practice_ws/build/status_pub/build/lib/status_pub
+copying status_pub/status_pub_node.py -> /home/wyp/test/robot_learning/week2/practice_ws/build/status_pub/build/lib/status_pub
+copying status_pub/__init__.py -> /home/wyp/test/robot_learning/week2/practice_ws/build/status_pub/build/lib/status_pub
+running install
+running install_lib
+creating /home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/lib/python3.10/site-packages/status_pub
+copying /home/wyp/test/robot_learning/week2/practice_ws/build/status_pub/build/lib/status_pub/status_pub_node.py -> /home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/lib/python3.10/site-packages/status_pub
+copying /home/wyp/test/robot_learning/week2/practice_ws/build/status_pub/build/lib/status_pub/__init__.py -> /home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/lib/python3.10/site-packages/status_pub
+byte-compiling /home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/lib/python3.10/site-packages/status_pub/status_pub_node.py to status_pub_node.cpython-310.pyc
+byte-compiling /home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/lib/python3.10/site-packages/status_pub/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/share/ament_index
+creating /home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/share/ament_index/resource_index
+creating /home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/share/ament_index/resource_index/packages
+copying resource/status_pub -> /home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/share/ament_index/resource_index/packages
+copying package.xml -> /home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/share/status_pub
+running install_egg_info
+Copying ../../build/status_pub/status_pub.egg-info to /home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/lib/python3.10/site-packages/status_pub-0.0.0-py3.10.egg-info
+running install_scripts
+Installing status_pub script to /home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/lib/status_pub
+writing list of installed files to '/home/wyp/test/robot_learning/week2/practice_ws/build/status_pub/install.log'

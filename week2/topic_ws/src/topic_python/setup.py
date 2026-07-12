@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'novel_publisher = topic_python.novel_pub_node:main',
+            'novel_subscriber = topic_python.novel_sub_node:main',
         ],
     },
 )

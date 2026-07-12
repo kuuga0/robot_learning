@@ -1,0 +1,3 @@
+[console_scripts]
+status_pub = status_pub.status_pub_node:main
+

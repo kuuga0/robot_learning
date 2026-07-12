@@ -1,0 +1,300 @@
+[0.009s] Invoking command in '/home/wyp/test/robot_learning/week2/practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyp/test/robot_learning/week2/practice_ws/install/status_pub:/home/wyp/test/robot_learning/week2/topic_ws/install/topic_python:/home/wyp/test/robot_learning/week2/week2_ws/install/demo_python_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robopy) /usr/bin/cmake /home/wyp/test/robot_learning/week2/practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces
+[0.055s] -- The C compiler identification is GNU 11.4.0
+[0.100s] -- The CXX compiler identification is GNU 11.4.0
+[0.106s] -- Detecting C compiler ABI info
+[0.167s] -- Detecting C compiler ABI info - done
+[0.171s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.172s] -- Detecting C compile features
+[0.172s] -- Detecting C compile features - done
+[0.174s] -- Detecting CXX compiler ABI info
+[0.244s] -- Detecting CXX compiler ABI info - done
+[0.249s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.249s] -- Detecting CXX compile features
+[0.249s] -- Detecting CXX compile features - done
+[0.251s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.529s] -- Found Python3: /home/wyp/miniconda3/envs/robopy/bin/python3 (found version "3.10.20") found components: Interpreter 
+[0.600s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.603s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.608s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.639s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.668s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.884s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.021s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.194s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.208s] -- Found PythonInterp: /home/wyp/miniconda3/envs/robopy/bin/python3 (found suitable version "3.10.20", minimum required is "3.6") 
+[1.209s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.225s] -- Found PythonLibs: /home/wyp/miniconda3/envs/robopy/lib/libpython3.10.so (found suitable version "3.10.20", minimum required is "3.5") 
+[1.225s] -- Using PYTHON_EXECUTABLE: /home/wyp/miniconda3/envs/robopy/bin/python3
+[1.225s] -- Using PYTHON_INCLUDE_DIRS: /home/wyp/miniconda3/envs/robopy/include/python3.10
+[1.225s] -- Using PYTHON_LIBRARIES: /home/wyp/miniconda3/envs/robopy/lib/libpython3.10.so
+[1.238s] -- Found PythonExtra: .so  
+[1.333s] -- Using numpy include directory: /home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/_core/include
+[1.384s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.400s] -- Added test 'lint_cmake' to check CMake code style
+[1.402s] -- Added test 'xmllint' to check XML markup files
+[1.404s] -- Configuring done
+[1.424s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:166 (add_library):
+[1.424s]   Cannot generate a safe runtime search path for target
+[1.424s]   status_interfaces__rosidl_generator_py because files in some directories
+[1.424s]   may conflict with libraries in implicit directories:
+[1.424s] 
+[1.425s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.425s]       /home/wyp/miniconda3/envs/robopy/lib
+[1.425s] 
+[1.425s]   Some of these libraries may not be found correctly.
+[1.425s] Call Stack (most recent call first):
+[1.425s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.425s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.425s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.425s] 
+[1.425s] [0m
+[1.426s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[1.426s]   Cannot generate a safe runtime search path for target
+[1.426s]   status_interfaces__rosidl_typesupport_fastrtps_c__pyext because files in
+[1.426s]   some directories may conflict with libraries in implicit directories:
+[1.426s] 
+[1.427s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.427s]       /home/wyp/miniconda3/envs/robopy/lib
+[1.427s] 
+[1.427s]   Some of these libraries may not be found correctly.
+[1.427s] Call Stack (most recent call first):
+[1.427s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.427s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.427s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.427s] 
+[1.427s] [0m
+[1.429s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[1.429s]   Cannot generate a safe runtime search path for target
+[1.429s]   status_interfaces__rosidl_typesupport_introspection_c__pyext because files
+[1.429s]   in some directories may conflict with libraries in implicit directories:
+[1.429s] 
+[1.429s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.429s]       /home/wyp/miniconda3/envs/robopy/lib
+[1.429s] 
+[1.429s]   Some of these libraries may not be found correctly.
+[1.429s] Call Stack (most recent call first):
+[1.429s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.429s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.429s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.429s] 
+[1.429s] [0m
+[1.431s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[1.431s]   Cannot generate a safe runtime search path for target
+[1.431s]   status_interfaces__rosidl_typesupport_c__pyext because files in some
+[1.431s]   directories may conflict with libraries in implicit directories:
+[1.431s] 
+[1.431s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.431s]       /home/wyp/miniconda3/envs/robopy/lib
+[1.431s] 
+[1.431s]   Some of these libraries may not be found correctly.
+[1.431s] Call Stack (most recent call first):
+[1.431s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.431s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.431s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.431s] 
+[1.431s] [0m
+[1.437s] -- Generating done
+[1.447s] -- Build files have been written to: /home/wyp/test/robot_learning/week2/practice_ws/build/status_interfaces
+[1.453s] Invoked command in '/home/wyp/test/robot_learning/week2/practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyp/test/robot_learning/week2/practice_ws/install/status_pub:/home/wyp/test/robot_learning/week2/topic_ws/install/topic_python:/home/wyp/test/robot_learning/week2/week2_ws/install/demo_python_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robopy) /usr/bin/cmake /home/wyp/test/robot_learning/week2/practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces
+[1.454s] Invoking command in '/home/wyp/test/robot_learning/week2/practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyp/test/robot_learning/week2/practice_ws/install/status_pub:/home/wyp/test/robot_learning/week2/topic_ws/install/topic_python:/home/wyp/test/robot_learning/week2/week2_ws/install/demo_python_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robopy) /usr/bin/cmake --build /home/wyp/test/robot_learning/week2/practice_ws/build/status_interfaces -- -j12 -l12
+[1.491s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.500s] [  9%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.500s] [  9%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.508s] [  9%] Built target ament_cmake_python_copy_status_interfaces
+[1.673s] running egg_info
+[1.684s] creating status_interfaces.egg-info
+[1.685s] writing status_interfaces.egg-info/PKG-INFO
+[1.685s] writing dependency_links to status_interfaces.egg-info/dependency_links.txt
+[1.685s] writing top-level names to status_interfaces.egg-info/top_level.txt
+[1.685s] writing manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[1.718s] reading manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[1.719s] writing manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[1.753s] [  9%] Built target ament_cmake_python_build_status_interfaces_egg
+[1.761s] [  9%] Built target status_interfaces__rs
+[1.768s] [  9%] Built target status_interfaces__cpp
+[1.777s] [ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.777s] [ 18%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.777s] [ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.786s] [ 21%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/systemstatus__functions.c.o[0m
+[1.827s] [ 25%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_generator_c.so[0m
+[1.861s] [ 25%] Built target status_interfaces__rosidl_generator_c
+[1.872s] [ 34%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.872s] [ 34%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.872s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.039s] [ 37%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/status_interfaces/msg/systemstatus__type_support.cpp.o[0m
+[2.058s] [ 40%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/status_interfaces/msg/detail/systemstatus__type_support.cpp.o[0m
+[2.062s] [ 43%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/status_interfaces/msg/detail/dds_fastrtps/systemstatus__type_support.cpp.o[0m
+[2.196s] [ 46%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/status_interfaces/msg/detail/systemstatus__type_support.c.o[0m
+[2.225s] [ 50%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/status_interfaces/msg/detail/systemstatus__type_support_c.cpp.o[0m
+[2.244s] [ 53%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.284s] [ 53%] Built target status_interfaces__rosidl_typesupport_introspection_c
+[2.289s] [ 56%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/status_interfaces/msg/systemstatus__type_support.cpp.o[0m
+[2.304s] [ 59%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_cpp.so[0m
+[2.322s] [ 62%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_c.so[0m
+[2.354s] [ 62%] Built target status_interfaces__rosidl_typesupport_cpp
+[2.371s] [ 62%] Built target status_interfaces__rosidl_typesupport_c
+[2.447s] [ 65%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.450s] [ 68%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.529s] [ 68%] Built target status_interfaces__rosidl_typesupport_introspection_cpp
+[2.535s] [ 71%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.535s] [ 71%] Built target status_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.598s] [ 71%] Built target status_interfaces__rosidl_typesupport_fastrtps_c
+[2.617s] [ 71%] Built target status_interfaces
+[2.636s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.988s] [ 75%] Built target status_interfaces__py
+[3.006s] [ 78%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_py.dir/rosidl_generator_py/status_interfaces/msg/_systemstatus_s.c.o[0m
+[3.088s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/libstatus_interfaces__rosidl_generator_py.so[0m
+[3.122s] [ 81%] Built target status_interfaces__rosidl_generator_py
+[3.141s] [ 90%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.141s] [ 90%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.141s] [ 90%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.219s] [100%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.219s] [100%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.219s] [100%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.252s] [100%] Built target status_interfaces__rosidl_typesupport_c__pyext
+[3.252s] [100%] Built target status_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.252s] [100%] Built target status_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.263s] Invoked command in '/home/wyp/test/robot_learning/week2/practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyp/test/robot_learning/week2/practice_ws/install/status_pub:/home/wyp/test/robot_learning/week2/topic_ws/install/topic_python:/home/wyp/test/robot_learning/week2/week2_ws/install/demo_python_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robopy) /usr/bin/cmake --build /home/wyp/test/robot_learning/week2/practice_ws/build/status_interfaces -- -j12 -l12
+[3.273s] Invoking command in '/home/wyp/test/robot_learning/week2/practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyp/test/robot_learning/week2/practice_ws/install/status_pub:/home/wyp/test/robot_learning/week2/topic_ws/install/topic_python:/home/wyp/test/robot_learning/week2/week2_ws/install/demo_python_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robopy) /usr/bin/cmake --install /home/wyp/test/robot_learning/week2/practice_ws/build/status_interfaces
+[3.280s] -- Install configuration: ""
+[3.280s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/ament_index/resource_index/rosidl_interfaces/status_interfaces
+[3.280s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[3.281s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[3.281s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/systemstatus.h
+[3.281s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.281s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[3.281s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/systemstatus__functions.h
+[3.281s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/systemstatus__struct.h
+[3.281s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/systemstatus__functions.c
+[3.282s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/systemstatus__type_support.h
+[3.282s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/environment/library_path.sh
+[3.282s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/environment/library_path.dsv
+[3.282s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so
+[3.283s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so" to ""
+[3.283s] -- Up-to-date: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[3.283s] -- Up-to-date: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[3.283s] -- Up-to-date: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[3.283s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/systemstatus__rosidl_typesupport_fastrtps_c.h
+[3.283s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.283s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.284s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.284s] -- Up-to-date: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[3.284s] -- Up-to-date: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[3.284s] -- Up-to-date: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[3.284s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/systemstatus__type_support.c
+[3.284s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/systemstatus__rosidl_typesupport_introspection_c.h
+[3.284s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.284s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so
+[3.285s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.285s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so
+[3.285s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so" to ""
+[3.285s] -- Up-to-date: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[3.285s] -- Up-to-date: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[3.285s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/systemstatus.hpp
+[3.285s] -- Up-to-date: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[3.286s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/systemstatus__builder.hpp
+[3.286s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/systemstatus__traits.hpp
+[3.286s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/systemstatus__type_support.hpp
+[3.286s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/systemstatus__struct.hpp
+[3.286s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.286s] -- Up-to-date: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[3.286s] -- Up-to-date: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[3.286s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.287s] -- Up-to-date: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[3.287s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/systemstatus__rosidl_typesupport_fastrtps_cpp.hpp
+[3.287s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/dds_fastrtps
+[3.287s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.287s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.287s] -- Up-to-date: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[3.287s] -- Up-to-date: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[3.287s] -- Up-to-date: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[3.287s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/systemstatus__type_support.cpp
+[3.288s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/systemstatus__rosidl_typesupport_introspection_cpp.hpp
+[3.288s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.288s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.288s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so
+[3.289s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.289s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.sh
+[3.289s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.dsv
+[3.289s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces-0.0.0-py3.10.egg-info
+[3.289s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.289s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.290s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.290s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.290s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces
+[3.290s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces/libstatus_interfaces__rosidl_generator_py.so
+[3.290s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c
+[3.290s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.291s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.291s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.291s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.291s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces/msg
+[3.291s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces/msg/_systemstatus_s.c
+[3.292s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces/msg/_systemstatus.py
+[3.292s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces/msg/__init__.py
+[3.292s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.292s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces/__init__.py
+[3.321s] Listing '/home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces'...
+[3.321s] Compiling '/home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces/__init__.py'...
+[3.321s] Listing '/home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces/msg'...
+[3.321s] Compiling '/home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces/msg/__init__.py'...
+[3.321s] Compiling '/home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces/msg/_systemstatus.py'...
+[3.325s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.326s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.326s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.326s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.327s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.327s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.327s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so
+[3.327s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so" to ""
+[3.327s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/ament_index/resource_index/rust_packages/status_interfaces
+[3.328s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/rust
+[3.328s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/rust/Cargo.toml
+[3.328s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/rust/src
+[3.328s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/rust/src/msg.rs
+[3.328s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/rust/src/lib.rs
+[3.328s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/rust/src/msg
+[3.328s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/rust/src/msg/rmw.rs
+[3.328s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/rust/build.rs
+[3.329s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/msg/Systemstatus.idl
+[3.329s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/msg/Systemstatus.msg
+[3.329s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/ament_index/resource_index/package_run_dependencies/status_interfaces
+[3.329s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/ament_index/resource_index/parent_prefix_path/status_interfaces
+[3.329s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.sh
+[3.329s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.dsv
+[3.330s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/environment/path.sh
+[3.330s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/environment/path.dsv
+[3.330s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/local_setup.bash
+[3.330s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/local_setup.sh
+[3.330s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/local_setup.zsh
+[3.330s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/local_setup.dsv
+[3.331s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/package.dsv
+[3.331s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/ament_index/resource_index/packages/status_interfaces
+[3.331s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport.cmake
+[3.331s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.331s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.332s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.332s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.332s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.332s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport.cmake
+[3.332s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.333s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cppExport.cmake
+[3.333s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.333s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.333s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.333s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.333s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport.cmake
+[3.334s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.334s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport.cmake
+[3.334s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.334s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.334s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.334s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.335s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.335s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.335s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.335s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.335s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig.cmake
+[3.335s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig-version.cmake
+[3.336s] -- Installing: /home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/share/status_interfaces/package.xml
+[3.338s] Invoked command in '/home/wyp/test/robot_learning/week2/practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyp/test/robot_learning/week2/practice_ws/install/status_pub:/home/wyp/test/robot_learning/week2/topic_ws/install/topic_python:/home/wyp/test/robot_learning/week2/week2_ws/install/demo_python_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robopy) /usr/bin/cmake --install /home/wyp/test/robot_learning/week2/practice_ws/build/status_interfaces

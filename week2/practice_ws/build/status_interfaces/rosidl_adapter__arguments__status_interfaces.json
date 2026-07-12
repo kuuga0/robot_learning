@@ -1,0 +1,6 @@
+{
+  "package_name": "status_interfaces",
+  "non_idl_tuples": [
+    "/home/wyp/test/robot_learning/week2/practice_ws/src/status_interfaces:msg/Systemstatus.msg"
+  ]
+}

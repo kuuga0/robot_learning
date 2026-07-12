@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "status_interfaces__rs",
+		"source" : "/home/wyp/test/robot_learning/week2/practice_ws/build/status_interfaces/status_interfaces__rs"
+	}
+}

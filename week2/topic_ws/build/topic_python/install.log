@@ -1,5 +1,7 @@
+/home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/lib/python3.10/site-packages/topic_python/novel_sub_node.py
 /home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/lib/python3.10/site-packages/topic_python/novel_pub_node.py
 /home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/lib/python3.10/site-packages/topic_python/__init__.py
+/home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/lib/python3.10/site-packages/topic_python/__pycache__/novel_sub_node.cpython-310.pyc
 /home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/lib/python3.10/site-packages/topic_python/__pycache__/novel_pub_node.cpython-310.pyc
 /home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/lib/python3.10/site-packages/topic_python/__pycache__/__init__.cpython-310.pyc
 /home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/share/ament_index/resource_index/packages/topic_python
@@ -12,3 +14,4 @@
 /home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/lib/python3.10/site-packages/topic_python-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/lib/python3.10/site-packages/topic_python-0.0.0-py3.10.egg-info/entry_points.txt
 /home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/lib/topic_python/novel_publisher
+/home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/lib/topic_python/novel_subscriber

@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robot_interfaces/msg/RobotStatus.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Twist.idl"
+#include "std_msgs/msg/Bool.idl"
+#include "std_msgs/msg/Float64.idl"
+#include "std_msgs/msg/Header.idl"
+
+module robot_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "单摆状态消息")
+    struct RobotStatus {
+      @verbatim (language="comment", text=
+        "时间戳")
+      std_msgs::msg::Header stamp;
+
+      @verbatim (language="comment", text=
+        "x: 小车位置[m], y: 摆角[rad], z: 0")
+      geometry_msgs::msg::Point pose;
+
+      @verbatim (language="comment", text=
+        "linear.x: 小车速度[m/s], angular.z: 摆角速度[rad/s]")
+      geometry_msgs::msg::Twist twist;
+
+      @verbatim (language="comment", text=
+        "当前控制量，调试用")
+      @unit (value="N")
+      std_msgs::msg::Float64 control;
+
+      @verbatim (language="comment", text=
+        "true=已稳定倒立")
+      std_msgs::msg::Bool stable;
+    };
+  };
+};

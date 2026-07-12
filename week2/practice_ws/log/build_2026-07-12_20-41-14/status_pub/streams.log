@@ -1,0 +1,38 @@
+[0.449s] Invoking command in '/home/wyp/test/robot_learning/week2/practice_ws/src/status_pub': CONDA_PROMPT_MODIFIER=(robopy) PYTHONPATH=/home/wyp/test/robot_learning/week2/practice_ws/build/status_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/week2_ws/install/demo_python_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_pub build --build-base /home/wyp/test/robot_learning/week2/practice_ws/build/status_pub/build install --record /home/wyp/test/robot_learning/week2/practice_ws/build/status_pub/install.log --install-scripts $base/lib/status_pub --single-version-externally-managed install_data
+[0.624s] running egg_info
+[0.624s] creating ../../build/status_pub/status_pub.egg-info
+[0.624s] writing ../../build/status_pub/status_pub.egg-info/PKG-INFO
+[0.624s] writing dependency_links to ../../build/status_pub/status_pub.egg-info/dependency_links.txt
+[0.625s] writing entry points to ../../build/status_pub/status_pub.egg-info/entry_points.txt
+[0.625s] writing requirements to ../../build/status_pub/status_pub.egg-info/requires.txt
+[0.625s] writing top-level names to ../../build/status_pub/status_pub.egg-info/top_level.txt
+[0.625s] writing manifest file '../../build/status_pub/status_pub.egg-info/SOURCES.txt'
+[0.626s] reading manifest file '../../build/status_pub/status_pub.egg-info/SOURCES.txt'
+[0.626s] adding license file 'LICENSE'
+[0.627s] writing manifest file '../../build/status_pub/status_pub.egg-info/SOURCES.txt'
+[0.627s] running build
+[0.627s] running build_py
+[0.627s] creating /home/wyp/test/robot_learning/week2/practice_ws/build/status_pub/build
+[0.627s] creating /home/wyp/test/robot_learning/week2/practice_ws/build/status_pub/build/lib
+[0.627s] creating /home/wyp/test/robot_learning/week2/practice_ws/build/status_pub/build/lib/status_pub
+[0.627s] copying status_pub/status_pub_node.py -> /home/wyp/test/robot_learning/week2/practice_ws/build/status_pub/build/lib/status_pub
+[0.627s] copying status_pub/__init__.py -> /home/wyp/test/robot_learning/week2/practice_ws/build/status_pub/build/lib/status_pub
+[0.627s] running install
+[0.627s] running install_lib
+[0.628s] creating /home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/lib/python3.10/site-packages/status_pub
+[0.628s] copying /home/wyp/test/robot_learning/week2/practice_ws/build/status_pub/build/lib/status_pub/status_pub_node.py -> /home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/lib/python3.10/site-packages/status_pub
+[0.628s] copying /home/wyp/test/robot_learning/week2/practice_ws/build/status_pub/build/lib/status_pub/__init__.py -> /home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/lib/python3.10/site-packages/status_pub
+[0.629s] byte-compiling /home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/lib/python3.10/site-packages/status_pub/status_pub_node.py to status_pub_node.cpython-310.pyc
+[0.629s] byte-compiling /home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/lib/python3.10/site-packages/status_pub/__init__.py to __init__.cpython-310.pyc
+[0.629s] running install_data
+[0.629s] creating /home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/share/ament_index
+[0.629s] creating /home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/share/ament_index/resource_index
+[0.629s] creating /home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/share/ament_index/resource_index/packages
+[0.629s] copying resource/status_pub -> /home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/share/ament_index/resource_index/packages
+[0.629s] copying package.xml -> /home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/share/status_pub
+[0.630s] running install_egg_info
+[0.631s] Copying ../../build/status_pub/status_pub.egg-info to /home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/lib/python3.10/site-packages/status_pub-0.0.0-py3.10.egg-info
+[0.632s] running install_scripts
+[0.647s] Installing status_pub script to /home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/lib/status_pub
+[0.648s] writing list of installed files to '/home/wyp/test/robot_learning/week2/practice_ws/build/status_pub/install.log'
+[0.682s] Invoked command in '/home/wyp/test/robot_learning/week2/practice_ws/src/status_pub' returned '0': CONDA_PROMPT_MODIFIER=(robopy) PYTHONPATH=/home/wyp/test/robot_learning/week2/practice_ws/build/status_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/practice_ws/install/status_interfaces/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/practice_ws/install/status_pub/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/topic_ws/install/topic_python/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/week2_ws/install/demo_python_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_pub build --build-base /home/wyp/test/robot_learning/week2/practice_ws/build/status_pub/build install --record /home/wyp/test/robot_learning/week2/practice_ws/build/status_pub/install.log --install-scripts $base/lib/status_pub --single-version-externally-managed install_data

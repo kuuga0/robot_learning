@@ -15,3 +15,4 @@ test/test_flake8.py
 test/test_pep257.py
 topic_python/__init__.py
 topic_python/novel_pub_node.py
+topic_python/novel_sub_node.py
