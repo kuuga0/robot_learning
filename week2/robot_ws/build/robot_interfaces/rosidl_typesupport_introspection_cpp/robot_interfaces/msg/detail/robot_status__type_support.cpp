@@ -39,14 +39,14 @@ void RobotStatus_fini_function(void * message_memory)
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMember RobotStatus_message_member_array[5] = {
   {
-    "stamp",  // name
+    "time",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
     0,  // upper bound of string
     ::rosidl_typesupport_introspection_cpp::get_message_type_support_handle<std_msgs::msg::Header>(),  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(robot_interfaces::msg::RobotStatus, stamp),  // bytes offset in struct
+    offsetof(robot_interfaces::msg::RobotStatus, time),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer

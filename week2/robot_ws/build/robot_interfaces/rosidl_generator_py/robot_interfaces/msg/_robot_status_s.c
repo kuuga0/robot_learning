@@ -70,12 +70,12 @@ bool robot_interfaces__msg__robot_status__convert_from_py(PyObject * _pymsg, voi
     assert(strncmp("robot_interfaces.msg._robot_status.RobotStatus", full_classname_dest, 46) == 0);
   }
   robot_interfaces__msg__RobotStatus * ros_message = _ros_message;
-  {  // stamp
-    PyObject * field = PyObject_GetAttrString(_pymsg, "stamp");
+  {  // time
+    PyObject * field = PyObject_GetAttrString(_pymsg, "time");
     if (!field) {
       return false;
     }
-    if (!std_msgs__msg__header__convert_from_py(field, &ros_message->stamp)) {
+    if (!std_msgs__msg__header__convert_from_py(field, &ros_message->time)) {
       Py_DECREF(field);
       return false;
     }
@@ -147,14 +147,14 @@ PyObject * robot_interfaces__msg__robot_status__convert_to_py(void * raw_ros_mes
     }
   }
   robot_interfaces__msg__RobotStatus * ros_message = (robot_interfaces__msg__RobotStatus *)raw_ros_message;
-  {  // stamp
+  {  // time
     PyObject * field = NULL;
-    field = std_msgs__msg__header__convert_to_py(&ros_message->stamp);
+    field = std_msgs__msg__header__convert_to_py(&ros_message->time);
     if (!field) {
       return NULL;
     }
     {
-      int rc = PyObject_SetAttrString(_pymessage, "stamp", field);
+      int rc = PyObject_SetAttrString(_pymessage, "time", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

@@ -15,7 +15,7 @@ module robot_interfaces {
     struct RobotStatus {
       @verbatim (language="comment", text=
         "时间戳")
-      std_msgs::msg::Header stamp;
+      std_msgs::msg::Header time;
 
       @verbatim (language="comment", text=
         "x: 小车位置[m], y: 摆角[rad], z: 0")

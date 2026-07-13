@@ -10,7 +10,7 @@ use serde::{Deserialize, Serialize};
 #[derive(Clone, Debug, PartialEq, PartialOrd)]
 pub struct RobotStatus {
     /// 时间戳
-    pub stamp: std_msgs::msg::Header,
+    pub time: std_msgs::msg::Header,
 
     /// x: 小车位置[m], y: 摆角[rad], z: 0
     pub pose: geometry_msgs::msg::Point,
@@ -40,14 +40,14 @@ impl rosidl_runtime_rs::Message for RobotStatus {
   fn into_rmw_message(msg_cow: std::borrow::Cow<'_, Self>) -> std::borrow::Cow<'_, Self::RmwMsg> {
     match msg_cow {
       std::borrow::Cow::Owned(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
-        stamp: std_msgs::msg::Header::into_rmw_message(std::borrow::Cow::Owned(msg.stamp)).into_owned(),
+        time: std_msgs::msg::Header::into_rmw_message(std::borrow::Cow::Owned(msg.time)).into_owned(),
         pose: geometry_msgs::msg::Point::into_rmw_message(std::borrow::Cow::Owned(msg.pose)).into_owned(),
         twist: geometry_msgs::msg::Twist::into_rmw_message(std::borrow::Cow::Owned(msg.twist)).into_owned(),
         control: std_msgs::msg::Float64::into_rmw_message(std::borrow::Cow::Owned(msg.control)).into_owned(),
         stable: std_msgs::msg::Bool::into_rmw_message(std::borrow::Cow::Owned(msg.stable)).into_owned(),
       }),
       std::borrow::Cow::Borrowed(msg) => std::borrow::Cow::Owned(Self::RmwMsg {
-        stamp: std_msgs::msg::Header::into_rmw_message(std::borrow::Cow::Borrowed(&msg.stamp)).into_owned(),
+        time: std_msgs::msg::Header::into_rmw_message(std::borrow::Cow::Borrowed(&msg.time)).into_owned(),
         pose: geometry_msgs::msg::Point::into_rmw_message(std::borrow::Cow::Borrowed(&msg.pose)).into_owned(),
         twist: geometry_msgs::msg::Twist::into_rmw_message(std::borrow::Cow::Borrowed(&msg.twist)).into_owned(),
         control: std_msgs::msg::Float64::into_rmw_message(std::borrow::Cow::Borrowed(&msg.control)).into_owned(),
@@ -58,7 +58,7 @@ impl rosidl_runtime_rs::Message for RobotStatus {
 
   fn from_rmw_message(msg: Self::RmwMsg) -> Self {
     Self {
-      stamp: std_msgs::msg::Header::from_rmw_message(msg.stamp),
+      time: std_msgs::msg::Header::from_rmw_message(msg.time),
       pose: geometry_msgs::msg::Point::from_rmw_message(msg.pose),
       twist: geometry_msgs::msg::Twist::from_rmw_message(msg.twist),
       control: std_msgs::msg::Float64::from_rmw_message(msg.control),

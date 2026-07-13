@@ -12,7 +12,7 @@
 
 
 // Include directives for member types
-// Member `stamp`
+// Member `time`
 #include "std_msgs/msg/detail/header__functions.h"
 // Member `pose`
 #include "geometry_msgs/msg/detail/point__functions.h"
@@ -29,8 +29,8 @@ robot_interfaces__msg__RobotStatus__init(robot_interfaces__msg__RobotStatus * ms
   if (!msg) {
     return false;
   }
-  // stamp
-  if (!std_msgs__msg__Header__init(&msg->stamp)) {
+  // time
+  if (!std_msgs__msg__Header__init(&msg->time)) {
     robot_interfaces__msg__RobotStatus__fini(msg);
     return false;
   }
@@ -63,8 +63,8 @@ robot_interfaces__msg__RobotStatus__fini(robot_interfaces__msg__RobotStatus * ms
   if (!msg) {
     return;
   }
-  // stamp
-  std_msgs__msg__Header__fini(&msg->stamp);
+  // time
+  std_msgs__msg__Header__fini(&msg->time);
   // pose
   geometry_msgs__msg__Point__fini(&msg->pose);
   // twist
@@ -81,9 +81,9 @@ robot_interfaces__msg__RobotStatus__are_equal(const robot_interfaces__msg__Robot
   if (!lhs || !rhs) {
     return false;
   }
-  // stamp
+  // time
   if (!std_msgs__msg__Header__are_equal(
-      &(lhs->stamp), &(rhs->stamp)))
+      &(lhs->time), &(rhs->time)))
   {
     return false;
   }
@@ -122,9 +122,9 @@ robot_interfaces__msg__RobotStatus__copy(
   if (!input || !output) {
     return false;
   }
-  // stamp
+  // time
   if (!std_msgs__msg__Header__copy(
-      &(input->stamp), &(output->stamp)))
+      &(input->time), &(output->time)))
   {
     return false;
   }

@@ -85,15 +85,15 @@ private:
   ::robot_interfaces::msg::RobotStatus msg_;
 };
 
-class Init_RobotStatus_stamp
+class Init_RobotStatus_time
 {
 public:
-  Init_RobotStatus_stamp()
+  Init_RobotStatus_time()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  Init_RobotStatus_pose stamp(::robot_interfaces::msg::RobotStatus::_stamp_type arg)
+  Init_RobotStatus_pose time(::robot_interfaces::msg::RobotStatus::_time_type arg)
   {
-    msg_.stamp = std::move(arg);
+    msg_.time = std::move(arg);
     return Init_RobotStatus_pose(msg_);
   }
 
@@ -112,7 +112,7 @@ template<>
 inline
 auto build<::robot_interfaces::msg::RobotStatus>()
 {
-  return robot_interfaces::msg::builder::Init_RobotStatus_stamp();
+  return robot_interfaces::msg::builder::Init_RobotStatus_time();
 }
 
 }  // namespace robot_interfaces

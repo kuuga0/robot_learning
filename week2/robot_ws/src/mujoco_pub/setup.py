@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'robot_ip = mujoco_pub.pub_node:main',
         ],
     },
 )

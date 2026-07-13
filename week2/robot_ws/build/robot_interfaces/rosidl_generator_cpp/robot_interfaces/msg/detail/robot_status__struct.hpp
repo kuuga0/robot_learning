@@ -17,7 +17,7 @@
 
 
 // Include directives for member types
-// Member 'stamp'
+// Member 'time'
 #include "std_msgs/msg/detail/header__struct.hpp"
 // Member 'pose'
 #include "geometry_msgs/msg/detail/point__struct.hpp"
@@ -47,7 +47,7 @@ struct RobotStatus_
   using Type = RobotStatus_<ContainerAllocator>;
 
   explicit RobotStatus_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : stamp(_init),
+  : time(_init),
     pose(_init),
     twist(_init),
     control(_init),
@@ -57,7 +57,7 @@ struct RobotStatus_
   }
 
   explicit RobotStatus_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : stamp(_alloc, _init),
+  : time(_alloc, _init),
     pose(_alloc, _init),
     twist(_alloc, _init),
     control(_alloc, _init),
@@ -67,9 +67,9 @@ struct RobotStatus_
   }
 
   // field types and members
-  using _stamp_type =
+  using _time_type =
     std_msgs::msg::Header_<ContainerAllocator>;
-  _stamp_type stamp;
+  _time_type time;
   using _pose_type =
     geometry_msgs::msg::Point_<ContainerAllocator>;
   _pose_type pose;
@@ -84,10 +84,10 @@ struct RobotStatus_
   _stable_type stable;
 
   // setters for named parameter idiom
-  Type & set__stamp(
+  Type & set__time(
     const std_msgs::msg::Header_<ContainerAllocator> & _arg)
   {
-    this->stamp = _arg;
+    this->time = _arg;
     return *this;
   }
   Type & set__pose(
@@ -157,7 +157,7 @@ struct RobotStatus_
   // comparison operators
   bool operator==(const RobotStatus_ & other) const
   {
-    if (this->stamp != other.stamp) {
+    if (this->time != other.time) {
       return false;
     }
     if (this->pose != other.pose) {

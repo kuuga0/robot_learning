@@ -24,7 +24,7 @@ extern "C" {
 #[derive(Clone, Debug, PartialEq, PartialOrd)]
 pub struct RobotStatus {
     /// 时间戳
-    pub stamp: std_msgs::msg::rmw::Header,
+    pub time: std_msgs::msg::rmw::Header,
 
     /// x: 小车位置[m], y: 摆角[rad], z: 0
     pub pose: geometry_msgs::msg::rmw::Point,

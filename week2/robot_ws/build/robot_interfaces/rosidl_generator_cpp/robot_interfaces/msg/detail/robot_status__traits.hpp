@@ -15,7 +15,7 @@
 #include "rosidl_runtime_cpp/traits.hpp"
 
 // Include directives for member types
-// Member 'stamp'
+// Member 'time'
 #include "std_msgs/msg/detail/header__traits.hpp"
 // Member 'pose'
 #include "geometry_msgs/msg/detail/point__traits.hpp"
@@ -37,10 +37,10 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
-  // member: stamp
+  // member: time
   {
-    out << "stamp: ";
-    to_flow_style_yaml(msg.stamp, out);
+    out << "time: ";
+    to_flow_style_yaml(msg.time, out);
     out << ", ";
   }
 
@@ -77,13 +77,13 @@ inline void to_block_style_yaml(
   const RobotStatus & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: stamp
+  // member: time
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "stamp:\n";
-    to_block_style_yaml(msg.stamp, out, indentation + 2);
+    out << "time:\n";
+    to_block_style_yaml(msg.time, out, indentation + 2);
   }
 
   // member: pose

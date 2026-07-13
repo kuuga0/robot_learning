@@ -38,7 +38,7 @@ extern "C"
 #include "geometry_msgs/msg/detail/twist__functions.h"  // twist
 #include "std_msgs/msg/detail/bool__functions.h"  // stable
 #include "std_msgs/msg/detail/float64__functions.h"  // control
-#include "std_msgs/msg/detail/header__functions.h"  // stamp
+#include "std_msgs/msg/detail/header__functions.h"  // time
 
 // forward declare type support functions
 ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_robot_interfaces
@@ -124,7 +124,7 @@ static bool _RobotStatus__cdr_serialize(
     return false;
   }
   const _RobotStatus__ros_msg_type * ros_message = static_cast<const _RobotStatus__ros_msg_type *>(untyped_ros_message);
-  // Field name: stamp
+  // Field name: time
   {
     const message_type_support_callbacks_t * callbacks =
       static_cast<const message_type_support_callbacks_t *>(
@@ -132,7 +132,7 @@ static bool _RobotStatus__cdr_serialize(
         rosidl_typesupport_fastrtps_c, std_msgs, msg, Header
       )()->data);
     if (!callbacks->cdr_serialize(
-        &ros_message->stamp, cdr))
+        &ros_message->time, cdr))
     {
       return false;
     }
@@ -206,7 +206,7 @@ static bool _RobotStatus__cdr_deserialize(
     return false;
   }
   _RobotStatus__ros_msg_type * ros_message = static_cast<_RobotStatus__ros_msg_type *>(untyped_ros_message);
-  // Field name: stamp
+  // Field name: time
   {
     const message_type_support_callbacks_t * callbacks =
       static_cast<const message_type_support_callbacks_t *>(
@@ -214,7 +214,7 @@ static bool _RobotStatus__cdr_deserialize(
         rosidl_typesupport_fastrtps_c, std_msgs, msg, Header
       )()->data);
     if (!callbacks->cdr_deserialize(
-        cdr, &ros_message->stamp))
+        cdr, &ros_message->time))
     {
       return false;
     }
@@ -293,10 +293,10 @@ size_t get_serialized_size_robot_interfaces__msg__RobotStatus(
   (void)padding;
   (void)wchar_size;
 
-  // field.name stamp
+  // field.name time
 
   current_alignment += get_serialized_size_std_msgs__msg__Header(
-    &(ros_message->stamp), current_alignment);
+    &(ros_message->time), current_alignment);
   // field.name pose
 
   current_alignment += get_serialized_size_geometry_msgs__msg__Point(
@@ -342,7 +342,7 @@ size_t max_serialized_size_robot_interfaces__msg__RobotStatus(
   full_bounded = true;
   is_plain = true;
 
-  // member: stamp
+  // member: time
   {
     size_t array_size = 1;
 

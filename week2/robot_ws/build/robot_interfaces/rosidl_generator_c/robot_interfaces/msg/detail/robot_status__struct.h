@@ -19,7 +19,7 @@ extern "C"
 // Constants defined in the message
 
 // Include directives for member types
-// Member 'stamp'
+// Member 'time'
 #include "std_msgs/msg/detail/header__struct.h"
 // Member 'pose'
 #include "geometry_msgs/msg/detail/point__struct.h"
@@ -37,7 +37,7 @@ extern "C"
 typedef struct robot_interfaces__msg__RobotStatus
 {
   /// 时间戳
-  std_msgs__msg__Header stamp;
+  std_msgs__msg__Header time;
   /// x: 小车位置[m], y: 摆角[rad], z: 0
   geometry_msgs__msg__Point pose;
   /// linear.x: 小车速度[m/s], angular.z: 摆角速度[rad/s]

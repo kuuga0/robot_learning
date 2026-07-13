@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/mujoco_pub/mujoco_pub.egg-info/PKG-INFO
+../../build/mujoco_pub/mujoco_pub.egg-info/SOURCES.txt
+../../build/mujoco_pub/mujoco_pub.egg-info/dependency_links.txt
+../../build/mujoco_pub/mujoco_pub.egg-info/entry_points.txt
+../../build/mujoco_pub/mujoco_pub.egg-info/requires.txt
+../../build/mujoco_pub/mujoco_pub.egg-info/top_level.txt
+../../build/mujoco_pub/mujoco_pub.egg-info/zip-safe
+mujoco_pub/__init__.py
+mujoco_pub/pub_node.py
+resource/mujoco_pub
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

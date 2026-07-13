@@ -152,9 +152,9 @@ cdr_serialize(
   const robot_interfaces::msg::RobotStatus & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: stamp
+  // Member: time
   std_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(
-    ros_message.stamp,
+    ros_message.time,
     cdr);
   // Member: pose
   geometry_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(
@@ -181,9 +181,9 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   robot_interfaces::msg::RobotStatus & ros_message)
 {
-  // Member: stamp
+  // Member: time
   std_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(
-    cdr, ros_message.stamp);
+    cdr, ros_message.time);
 
   // Member: pose
   geometry_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(
@@ -217,11 +217,11 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: stamp
+  // Member: time
 
   current_alignment +=
     std_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(
-    ros_message.stamp, current_alignment);
+    ros_message.time, current_alignment);
   // Member: pose
 
   current_alignment +=
@@ -266,7 +266,7 @@ max_serialized_size_RobotStatus(
   is_plain = true;
 
 
-  // Member: stamp
+  // Member: time
   {
     size_t array_size = 1;
 

@@ -13,9 +13,9 @@
 
 
 // Include directives for member types
-// Member `stamp`
+// Member `time`
 #include "std_msgs/msg/header.h"
-// Member `stamp`
+// Member `time`
 #include "std_msgs/msg/detail/header__rosidl_typesupport_introspection_c.h"
 // Member `pose`
 #include "geometry_msgs/msg/point.h"
@@ -55,14 +55,14 @@ void robot_interfaces__msg__RobotStatus__rosidl_typesupport_introspection_c__Rob
 
 static rosidl_typesupport_introspection_c__MessageMember robot_interfaces__msg__RobotStatus__rosidl_typesupport_introspection_c__RobotStatus_message_member_array[5] = {
   {
-    "stamp",  // name
+    "time",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message (initialized later)
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(robot_interfaces__msg__RobotStatus, stamp),  // bytes offset in struct
+    offsetof(robot_interfaces__msg__RobotStatus, time),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer

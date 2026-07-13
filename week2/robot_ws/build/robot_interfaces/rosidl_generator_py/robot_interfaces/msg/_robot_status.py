@@ -75,7 +75,7 @@ class RobotStatus(metaclass=Metaclass_RobotStatus):
     """Message class 'RobotStatus'."""
 
     __slots__ = [
-        '_stamp',
+        '_time',
         '_pose',
         '_twist',
         '_control',
@@ -83,7 +83,7 @@ class RobotStatus(metaclass=Metaclass_RobotStatus):
     ]
 
     _fields_and_field_types = {
-        'stamp': 'std_msgs/Header',
+        'time': 'std_msgs/Header',
         'pose': 'geometry_msgs/Point',
         'twist': 'geometry_msgs/Twist',
         'control': 'std_msgs/Float64',
@@ -103,7 +103,7 @@ class RobotStatus(metaclass=Metaclass_RobotStatus):
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         from std_msgs.msg import Header
-        self.stamp = kwargs.get('stamp', Header())
+        self.time = kwargs.get('time', Header())
         from geometry_msgs.msg import Point
         self.pose = kwargs.get('pose', Point())
         from geometry_msgs.msg import Twist
@@ -142,7 +142,7 @@ class RobotStatus(metaclass=Metaclass_RobotStatus):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.stamp != other.stamp:
+        if self.time != other.time:
             return False
         if self.pose != other.pose:
             return False
@@ -160,18 +160,18 @@ class RobotStatus(metaclass=Metaclass_RobotStatus):
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def stamp(self):
-        """Message field 'stamp'."""
-        return self._stamp
+    def time(self):
+        """Message field 'time'."""
+        return self._time
 
-    @stamp.setter
-    def stamp(self, value):
+    @time.setter
+    def time(self, value):
         if __debug__:
             from std_msgs.msg import Header
             assert \
                 isinstance(value, Header), \
-                "The 'stamp' field must be a sub message of type 'Header'"
-        self._stamp = value
+                "The 'time' field must be a sub message of type 'Header'"
+        self._time = value
 
     @builtins.property
     def pose(self):
