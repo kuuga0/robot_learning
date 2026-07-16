@@ -1,0 +1,307 @@
+[0.016s] Invoking command in '/home/wyp/test/robot_learning/week2/sev_ws/build/detect_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robopy) /usr/bin/cmake /home/wyp/test/robot_learning/week2/sev_ws/src/detect_interfaces -DCMAKE_INSTALL_PREFIX=/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces
+[0.124s] -- The C compiler identification is GNU 11.4.0
+[0.211s] -- The CXX compiler identification is GNU 11.4.0
+[0.220s] -- Detecting C compiler ABI info
+[0.289s] -- Detecting C compiler ABI info - done
+[0.294s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.295s] -- Detecting C compile features
+[0.295s] -- Detecting C compile features - done
+[0.298s] -- Detecting CXX compiler ABI info
+[0.370s] -- Detecting CXX compiler ABI info - done
+[0.376s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.376s] -- Detecting CXX compile features
+[0.376s] -- Detecting CXX compile features - done
+[0.380s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.675s] -- Found Python3: /home/wyp/miniconda3/envs/robopy/bin/python3 (found version "3.10.20") found components: Interpreter 
+[0.753s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.756s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.763s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.801s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.835s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.124s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.335s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.603s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.618s] -- Found PythonInterp: /home/wyp/miniconda3/envs/robopy/bin/python3 (found suitable version "3.10.20", minimum required is "3.6") 
+[1.619s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.637s] -- Found PythonLibs: /home/wyp/miniconda3/envs/robopy/lib/libpython3.10.so (found suitable version "3.10.20", minimum required is "3.5") 
+[1.637s] -- Using PYTHON_EXECUTABLE: /home/wyp/miniconda3/envs/robopy/bin/python3
+[1.637s] -- Using PYTHON_INCLUDE_DIRS: /home/wyp/miniconda3/envs/robopy/include/python3.10
+[1.637s] -- Using PYTHON_LIBRARIES: /home/wyp/miniconda3/envs/robopy/lib/libpython3.10.so
+[1.655s] -- Found PythonExtra: .so  
+[1.815s] -- Using numpy include directory: /home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/_core/include
+[1.894s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.915s] -- Added test 'lint_cmake' to check CMake code style
+[1.917s] -- Added test 'xmllint' to check XML markup files
+[1.920s] -- Configuring done
+[1.942s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:166 (add_library):
+[1.943s]   Cannot generate a safe runtime search path for target
+[1.943s]   detect_interfaces__rosidl_generator_py because files in some directories
+[1.943s]   may conflict with libraries in implicit directories:
+[1.943s] 
+[1.943s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.943s]       /home/wyp/miniconda3/envs/robopy/lib
+[1.943s] 
+[1.943s]   Some of these libraries may not be found correctly.
+[1.943s] Call Stack (most recent call first):
+[1.943s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.943s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.943s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.943s] 
+[1.943s] [0m
+[1.945s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[1.946s]   Cannot generate a safe runtime search path for target
+[1.946s]   detect_interfaces__rosidl_typesupport_fastrtps_c__pyext because files in
+[1.946s]   some directories may conflict with libraries in implicit directories:
+[1.946s] 
+[1.946s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.946s]       /home/wyp/miniconda3/envs/robopy/lib
+[1.946s] 
+[1.946s]   Some of these libraries may not be found correctly.
+[1.946s] Call Stack (most recent call first):
+[1.946s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.946s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.946s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.946s] 
+[1.946s] [0m
+[1.948s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[1.948s]   Cannot generate a safe runtime search path for target
+[1.948s]   detect_interfaces__rosidl_typesupport_introspection_c__pyext because files
+[1.948s]   in some directories may conflict with libraries in implicit directories:
+[1.948s] 
+[1.948s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.948s]       /home/wyp/miniconda3/envs/robopy/lib
+[1.948s] 
+[1.948s]   Some of these libraries may not be found correctly.
+[1.948s] Call Stack (most recent call first):
+[1.948s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.948s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.948s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.949s] 
+[1.949s] [0m
+[1.950s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[1.950s]   Cannot generate a safe runtime search path for target
+[1.950s]   detect_interfaces__rosidl_typesupport_c__pyext because files in some
+[1.951s]   directories may conflict with libraries in implicit directories:
+[1.951s] 
+[1.951s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.951s]       /home/wyp/miniconda3/envs/robopy/lib
+[1.951s] 
+[1.951s]   Some of these libraries may not be found correctly.
+[1.951s] Call Stack (most recent call first):
+[1.951s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.951s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.951s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.951s] 
+[1.951s] [0m
+[1.956s] -- Generating done
+[1.967s] -- Build files have been written to: /home/wyp/test/robot_learning/week2/sev_ws/build/detect_interfaces
+[1.975s] Invoked command in '/home/wyp/test/robot_learning/week2/sev_ws/build/detect_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robopy) /usr/bin/cmake /home/wyp/test/robot_learning/week2/sev_ws/src/detect_interfaces -DCMAKE_INSTALL_PREFIX=/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces
+[1.977s] Invoking command in '/home/wyp/test/robot_learning/week2/sev_ws/build/detect_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robopy) /usr/bin/cmake --build /home/wyp/test/robot_learning/week2/sev_ws/build/detect_interfaces -- -j12 -l12
+[2.012s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.021s] [  9%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.021s] [  9%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.029s] [  9%] Built target ament_cmake_python_copy_detect_interfaces
+[2.198s] running egg_info
+[2.211s] creating detect_interfaces.egg-info
+[2.211s] writing detect_interfaces.egg-info/PKG-INFO
+[2.212s] writing dependency_links to detect_interfaces.egg-info/dependency_links.txt
+[2.212s] writing top-level names to detect_interfaces.egg-info/top_level.txt
+[2.212s] writing manifest file 'detect_interfaces.egg-info/SOURCES.txt'
+[2.246s] [  9%] Built target detect_interfaces__rs
+[2.251s] reading manifest file 'detect_interfaces.egg-info/SOURCES.txt'
+[2.252s] writing manifest file 'detect_interfaces.egg-info/SOURCES.txt'
+[2.273s] [  9%] Built target detect_interfaces__cpp
+[2.282s] [ 18%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.282s] [ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.282s] [ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.285s] [ 21%] [32mBuilding C object CMakeFiles/detect_interfaces__rosidl_generator_c.dir/rosidl_generator_c/detect_interfaces/srv/detail/face_detector__functions.c.o[0m
+[2.288s] [ 21%] Built target ament_cmake_python_build_detect_interfaces_egg
+[2.351s] [ 25%] [32m[1mLinking C shared library libdetect_interfaces__rosidl_generator_c.so[0m
+[2.384s] [ 25%] Built target detect_interfaces__rosidl_generator_c
+[2.394s] [ 34%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.394s] [ 34%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.394s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.514s] [ 37%] [32mBuilding CXX object CMakeFiles/detect_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/detect_interfaces/srv/face_detector__type_support.cpp.o[0m
+[2.530s] [ 40%] [32mBuilding CXX object CMakeFiles/detect_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/detect_interfaces/srv/detail/face_detector__type_support.cpp.o[0m
+[2.537s] [ 43%] [32mBuilding CXX object CMakeFiles/detect_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/detect_interfaces/srv/detail/dds_fastrtps/face_detector__type_support.cpp.o[0m
+[2.655s] [ 50%] [32mBuilding CXX object CMakeFiles/detect_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/detect_interfaces/srv/face_detector__type_support.cpp.o[0m
+[2.655s] [ 50%] [32mBuilding CXX object CMakeFiles/detect_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/detect_interfaces/srv/detail/face_detector__type_support_c.cpp.o[0m
+[2.668s] [ 53%] [32mBuilding C object CMakeFiles/detect_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/detect_interfaces/srv/detail/face_detector__type_support.c.o[0m
+[2.686s] [ 56%] [32m[1mLinking CXX shared library libdetect_interfaces__rosidl_typesupport_c.so[0m
+[2.710s] [ 59%] [32m[1mLinking C shared library libdetect_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.726s] [ 59%] Built target detect_interfaces__rosidl_typesupport_c
+[2.745s] [ 59%] Built target detect_interfaces__rosidl_typesupport_introspection_c
+[2.777s] [ 62%] [32m[1mLinking CXX shared library libdetect_interfaces__rosidl_typesupport_cpp.so[0m
+[2.815s] [ 62%] Built target detect_interfaces__rosidl_typesupport_cpp
+[2.915s] [ 65%] [32m[1mLinking CXX shared library libdetect_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.916s] [ 68%] [32m[1mLinking CXX shared library libdetect_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.929s] [ 71%] [32m[1mLinking CXX shared library libdetect_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.007s] [ 71%] Built target detect_interfaces__rosidl_typesupport_fastrtps_c
+[3.008s] [ 71%] Built target detect_interfaces__rosidl_typesupport_introspection_cpp
+[3.012s] [ 71%] Built target detect_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.030s] [ 71%] Built target detect_interfaces
+[3.048s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.393s] [ 75%] Built target detect_interfaces__py
+[3.412s] [ 78%] [32mBuilding C object CMakeFiles/detect_interfaces__rosidl_generator_py.dir/rosidl_generator_py/detect_interfaces/srv/_face_detector_s.c.o[0m
+[3.538s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/detect_interfaces/libdetect_interfaces__rosidl_generator_py.so[0m
+[3.577s] [ 81%] Built target detect_interfaces__rosidl_generator_py
+[3.595s] [ 90%] [32mBuilding C object CMakeFiles/detect_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/detect_interfaces/_detect_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.595s] [ 90%] [32mBuilding C object CMakeFiles/detect_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/detect_interfaces/_detect_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.595s] [ 90%] [32mBuilding C object CMakeFiles/detect_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/detect_interfaces/_detect_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.678s] [100%] [32m[1mLinking C shared library rosidl_generator_py/detect_interfaces/detect_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.678s] [100%] [32m[1mLinking C shared library rosidl_generator_py/detect_interfaces/detect_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.678s] [100%] [32m[1mLinking C shared library rosidl_generator_py/detect_interfaces/detect_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.715s] [100%] Built target detect_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.715s] [100%] Built target detect_interfaces__rosidl_typesupport_c__pyext
+[3.715s] [100%] Built target detect_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.726s] Invoked command in '/home/wyp/test/robot_learning/week2/sev_ws/build/detect_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robopy) /usr/bin/cmake --build /home/wyp/test/robot_learning/week2/sev_ws/build/detect_interfaces -- -j12 -l12
+[3.735s] Invoking command in '/home/wyp/test/robot_learning/week2/sev_ws/build/detect_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robopy) /usr/bin/cmake --install /home/wyp/test/robot_learning/week2/sev_ws/build/detect_interfaces
+[3.742s] -- Install configuration: ""
+[3.742s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/ament_index/resource_index/rosidl_interfaces/detect_interfaces
+[3.742s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces
+[3.742s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv
+[3.742s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv/detail
+[3.743s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv/detail/face_detector__functions.h
+[3.743s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv/detail/face_detector__type_support.h
+[3.743s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv/detail/face_detector__struct.h
+[3.743s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv/detail/face_detector__functions.c
+[3.743s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv/face_detector.h
+[3.743s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/msg
+[3.744s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.744s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/environment/library_path.sh
+[3.744s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/environment/library_path.dsv
+[3.744s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/libdetect_interfaces__rosidl_generator_c.so
+[3.745s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/libdetect_interfaces__rosidl_generator_c.so" to ""
+[3.745s] -- Up-to-date: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces
+[3.745s] -- Up-to-date: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv
+[3.745s] -- Up-to-date: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv/detail
+[3.745s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h
+[3.745s] -- Up-to-date: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/msg
+[3.745s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.745s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/libdetect_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.746s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/libdetect_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.746s] -- Up-to-date: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces
+[3.746s] -- Up-to-date: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv
+[3.746s] -- Up-to-date: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv/detail
+[3.746s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h
+[3.746s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv/detail/face_detector__type_support.c
+[3.746s] -- Up-to-date: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/msg
+[3.747s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.747s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/libdetect_interfaces__rosidl_typesupport_introspection_c.so
+[3.747s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/libdetect_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.747s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/libdetect_interfaces__rosidl_typesupport_c.so
+[3.748s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/libdetect_interfaces__rosidl_typesupport_c.so" to ""
+[3.748s] -- Up-to-date: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces
+[3.748s] -- Up-to-date: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv
+[3.748s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv/face_detector.hpp
+[3.748s] -- Up-to-date: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv/detail
+[3.748s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv/detail/face_detector__builder.hpp
+[3.748s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv/detail/face_detector__traits.hpp
+[3.748s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv/detail/face_detector__struct.hpp
+[3.749s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv/detail/face_detector__type_support.hpp
+[3.749s] -- Up-to-date: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/msg
+[3.749s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.749s] -- Up-to-date: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces
+[3.749s] -- Up-to-date: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv
+[3.749s] -- Up-to-date: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv/detail
+[3.749s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_cpp.hpp
+[3.749s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv/detail/dds_fastrtps
+[3.750s] -- Up-to-date: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/msg
+[3.750s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.750s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/libdetect_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.750s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/libdetect_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.750s] -- Up-to-date: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces
+[3.750s] -- Up-to-date: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv
+[3.750s] -- Up-to-date: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv/detail
+[3.751s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp
+[3.751s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/include/detect_interfaces/detect_interfaces/srv/detail/face_detector__type_support.cpp
+[3.751s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/libdetect_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.751s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/libdetect_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.752s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/libdetect_interfaces__rosidl_typesupport_cpp.so
+[3.752s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/libdetect_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.752s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/environment/pythonpath.sh
+[3.752s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/environment/pythonpath.dsv
+[3.752s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces-0.0.0-py3.10.egg-info
+[3.752s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.753s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.753s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.753s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.753s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces
+[3.753s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces/detect_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.753s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces/srv
+[3.753s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces/srv/_face_detector.py
+[3.754s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces/srv/_face_detector_s.c
+[3.754s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces/srv/__init__.py
+[3.754s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces/libdetect_interfaces__rosidl_generator_py.so
+[3.754s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces/detect_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.754s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces/_detect_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.754s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces/detect_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.755s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces/_detect_interfaces_s.ep.rosidl_typesupport_c.c
+[3.755s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces/_detect_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.755s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces/__init__.py
+[3.784s] Listing '/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces'...
+[3.784s] Compiling '/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces/__init__.py'...
+[3.784s] Listing '/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces/srv'...
+[3.784s] Compiling '/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces/srv/__init__.py'...
+[3.784s] Compiling '/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces/srv/_face_detector.py'...
+[3.787s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces/detect_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.787s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces/detect_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.788s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces/detect_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.788s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces/detect_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.788s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces/detect_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.789s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages/detect_interfaces/detect_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.789s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/libdetect_interfaces__rosidl_generator_py.so
+[3.789s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/libdetect_interfaces__rosidl_generator_py.so" to ""
+[3.789s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/ament_index/resource_index/rust_packages/detect_interfaces
+[3.789s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/rust
+[3.789s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/rust/Cargo.toml
+[3.789s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/rust/src
+[3.790s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/rust/src/srv
+[3.790s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/rust/src/srv/rmw.rs
+[3.790s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/rust/src/srv.rs
+[3.790s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/rust/src/lib.rs
+[3.790s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/rust/build.rs
+[3.790s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/srv/FaceDetector.idl
+[3.790s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/srv/FaceDetector.srv
+[3.791s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/srv/FaceDetector_Request.msg
+[3.791s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/srv/FaceDetector_Response.msg
+[3.791s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/ament_index/resource_index/package_run_dependencies/detect_interfaces
+[3.791s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/ament_index/resource_index/parent_prefix_path/detect_interfaces
+[3.791s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/environment/ament_prefix_path.sh
+[3.792s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/environment/ament_prefix_path.dsv
+[3.792s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/environment/path.sh
+[3.792s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/environment/path.dsv
+[3.792s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/local_setup.bash
+[3.792s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/local_setup.sh
+[3.792s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/local_setup.zsh
+[3.792s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/local_setup.dsv
+[3.793s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/package.dsv
+[3.793s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/ament_index/resource_index/packages/detect_interfaces
+[3.793s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/cmake/export_detect_interfaces__rosidl_generator_cExport.cmake
+[3.793s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/cmake/export_detect_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.793s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/cmake/export_detect_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.794s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/cmake/export_detect_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.794s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/cmake/detect_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.794s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/cmake/detect_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.794s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/cmake/detect_interfaces__rosidl_typesupport_cExport.cmake
+[3.794s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/cmake/detect_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.795s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/cmake/export_detect_interfaces__rosidl_generator_cppExport.cmake
+[3.795s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/cmake/export_detect_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.795s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/cmake/export_detect_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.795s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/cmake/detect_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.795s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/cmake/detect_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.795s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/cmake/detect_interfaces__rosidl_typesupport_cppExport.cmake
+[3.796s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/cmake/detect_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.796s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/cmake/export_detect_interfaces__rosidl_generator_pyExport.cmake
+[3.796s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/cmake/export_detect_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.796s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.796s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.796s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.797s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.797s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.797s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.797s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.797s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/cmake/detect_interfacesConfig.cmake
+[3.797s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/cmake/detect_interfacesConfig-version.cmake
+[3.798s] -- Installing: /home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/share/detect_interfaces/package.xml
+[3.800s] Invoked command in '/home/wyp/test/robot_learning/week2/sev_ws/build/detect_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robopy) /usr/bin/cmake --install /home/wyp/test/robot_learning/week2/sev_ws/build/detect_interfaces

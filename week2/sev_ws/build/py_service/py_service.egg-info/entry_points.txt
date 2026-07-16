@@ -1,0 +1,2 @@
+[console_scripts]
+learn_to_detect = py_service.learn_to_detect:main

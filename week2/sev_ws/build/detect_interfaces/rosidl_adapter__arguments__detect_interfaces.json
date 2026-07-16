@@ -1,0 +1,6 @@
+{
+  "package_name": "detect_interfaces",
+  "non_idl_tuples": [
+    "/home/wyp/test/robot_learning/week2/sev_ws/src/detect_interfaces:srv/FaceDetector.srv"
+  ]
+}

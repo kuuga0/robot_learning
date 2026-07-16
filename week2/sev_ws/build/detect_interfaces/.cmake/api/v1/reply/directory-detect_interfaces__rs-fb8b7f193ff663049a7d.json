@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "detect_interfaces__rs",
+		"source" : "/home/wyp/test/robot_learning/week2/sev_ws/build/detect_interfaces/detect_interfaces__rs"
+	}
+}
