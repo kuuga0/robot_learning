@@ -1,2 +1,4 @@
 [console_scripts]
+detect_client = py_service.detect_client:main
+face_detect = py_service.face_detect:main
 learn_to_detect = py_service.learn_to_detect:main

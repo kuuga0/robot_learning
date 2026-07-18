@@ -214,21 +214,16 @@ CMakeFiles/detect_interfaces__rosidl_generator_py.dir/rosidl_generator_py/detect
  /home/wyp/miniconda3/envs/robopy/include/python3.10/cpython/pyfpe.h \
  /home/wyp/miniconda3/envs/robopy/include/python3.10/tracemalloc.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
- /home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/_core/include/numpy/ndarrayobject.h \
- /home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/_core/include/numpy/ndarraytypes.h \
- /home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/_core/include/numpy/npy_common.h \
- /home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/_core/include/numpy/numpyconfig.h \
- /home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/_core/include/numpy/_numpyconfig.h \
- /usr/include/complex.h /usr/include/x86_64-linux-gnu/bits/mathdef.h \
- /usr/include/x86_64-linux-gnu/bits/cmathcalls.h \
- /home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/_core/include/numpy/npy_endian.h \
- /home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/_core/include/numpy/npy_cpu.h \
- /home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/_core/include/numpy/utils.h \
- /home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h \
- /home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/_core/include/numpy/dtype_api.h \
- /home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/_core/include/numpy/__multiarray_api.h \
- /home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h \
- /home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/_core/include/numpy/npy_2_compat.h \
+ /home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/core/include/numpy/ndarrayobject.h \
+ /home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/core/include/numpy/ndarraytypes.h \
+ /home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/core/include/numpy/npy_common.h \
+ /home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/core/include/numpy/numpyconfig.h \
+ /home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/core/include/numpy/_numpyconfig.h \
+ /home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/core/include/numpy/npy_endian.h \
+ /home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/core/include/numpy/npy_cpu.h \
+ /home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/core/include/numpy/utils.h \
+ /home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/core/include/numpy/_neighborhood_iterator_imp.h \
+ /home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/core/include/numpy/__multiarray_api.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /home/wyp/test/robot_learning/week2/sev_ws/build/detect_interfaces/rosidl_generator_c/detect_interfaces/srv/detail/face_detector__struct.h \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h \

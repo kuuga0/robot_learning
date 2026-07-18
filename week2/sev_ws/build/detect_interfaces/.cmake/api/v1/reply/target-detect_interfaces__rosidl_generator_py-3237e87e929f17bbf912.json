@@ -229,7 +229,7 @@
 				},
 				{
 					"backtrace" : 25,
-					"path" : "/home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/_core/include"
+					"path" : "/home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/core/include"
 				},
 				{
 					"backtrace" : 12,

@@ -13,13 +13,19 @@ running build
 running build_py
 creating /home/wyp/test/robot_learning/week2/sev_ws/build/py_service/build/lib/py_service
 copying py_service/learn_to_detect.py -> /home/wyp/test/robot_learning/week2/sev_ws/build/py_service/build/lib/py_service
+copying py_service/face_detect.py -> /home/wyp/test/robot_learning/week2/sev_ws/build/py_service/build/lib/py_service
+copying py_service/detect_client.py -> /home/wyp/test/robot_learning/week2/sev_ws/build/py_service/build/lib/py_service
 copying py_service/__init__.py -> /home/wyp/test/robot_learning/week2/sev_ws/build/py_service/build/lib/py_service
 running install
 running install_lib
 creating /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages/py_service
 copying /home/wyp/test/robot_learning/week2/sev_ws/build/py_service/build/lib/py_service/learn_to_detect.py -> /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages/py_service
+copying /home/wyp/test/robot_learning/week2/sev_ws/build/py_service/build/lib/py_service/face_detect.py -> /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages/py_service
+copying /home/wyp/test/robot_learning/week2/sev_ws/build/py_service/build/lib/py_service/detect_client.py -> /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages/py_service
 copying /home/wyp/test/robot_learning/week2/sev_ws/build/py_service/build/lib/py_service/__init__.py -> /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages/py_service
 byte-compiling /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages/py_service/learn_to_detect.py to learn_to_detect.cpython-310.pyc
+byte-compiling /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages/py_service/face_detect.py to face_detect.cpython-310.pyc
+byte-compiling /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages/py_service/detect_client.py to detect_client.cpython-310.pyc
 byte-compiling /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages/py_service/__init__.py to __init__.cpython-310.pyc
 running install_data
 creating /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/share/ament_index/resource_index/packages
@@ -27,8 +33,15 @@ copying resource/py_service -> /home/wyp/test/robot_learning/week2/sev_ws/instal
 copying package.xml -> /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/share/py_service
 creating /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/share/py_service/resource
 copying resource/default.png -> /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/share/py_service/resource
+copying resource/test1.png -> /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/share/py_service/resource
+copying resource/test2.png -> /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/share/py_service/resource
+copying resource/test3.png -> /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/share/py_service/resource
+creating /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/share/py_service/launch
+copying launch/test.launch.py -> /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/share/py_service/launch
 running install_egg_info
 Copying ../../build/py_service/py_service.egg-info to /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages/py_service-0.0.0-py3.10.egg-info
 running install_scripts
+Installing detect_client script to /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/py_service
+Installing face_detect script to /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/py_service
 Installing learn_to_detect script to /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/py_service
 writing list of installed files to '/home/wyp/test/robot_learning/week2/sev_ws/build/py_service/install.log'

@@ -1,0 +1,49 @@
+[0.547s] Invoking command in '/home/wyp/test/robot_learning/week2/sev_ws/src/py_service': CONDA_PROMPT_MODIFIER=(robopy) PYTHONPATH=/home/wyp/test/robot_learning/week2/sev_ws/build/py_service/prefix_override:/home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /home/wyp/miniconda3/envs/robopy/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_service build --build-base /home/wyp/test/robot_learning/week2/sev_ws/build/py_service/build install --record /home/wyp/test/robot_learning/week2/sev_ws/build/py_service/install.log --install-scripts $base/lib/py_service --single-version-externally-managed install_data
+[0.741s] running egg_info
+[0.753s] creating ../../build/py_service/py_service.egg-info
+[0.753s] writing ../../build/py_service/py_service.egg-info/PKG-INFO
+[0.753s] writing dependency_links to ../../build/py_service/py_service.egg-info/dependency_links.txt
+[0.753s] writing entry points to ../../build/py_service/py_service.egg-info/entry_points.txt
+[0.754s] writing requirements to ../../build/py_service/py_service.egg-info/requires.txt
+[0.754s] writing top-level names to ../../build/py_service/py_service.egg-info/top_level.txt
+[0.754s] writing manifest file '../../build/py_service/py_service.egg-info/SOURCES.txt'
+[0.778s] reading manifest file '../../build/py_service/py_service.egg-info/SOURCES.txt'
+[0.778s] adding license file 'LICENSE'
+[0.779s] writing manifest file '../../build/py_service/py_service.egg-info/SOURCES.txt'
+[0.779s] running build
+[0.779s] running build_py
+[0.779s] creating /home/wyp/test/robot_learning/week2/sev_ws/build/py_service/build/lib/py_service
+[0.779s] copying py_service/learn_to_detect.py -> /home/wyp/test/robot_learning/week2/sev_ws/build/py_service/build/lib/py_service
+[0.780s] copying py_service/face_detect.py -> /home/wyp/test/robot_learning/week2/sev_ws/build/py_service/build/lib/py_service
+[0.780s] copying py_service/detect_client.py -> /home/wyp/test/robot_learning/week2/sev_ws/build/py_service/build/lib/py_service
+[0.780s] copying py_service/__init__.py -> /home/wyp/test/robot_learning/week2/sev_ws/build/py_service/build/lib/py_service
+[0.780s] running install
+[0.783s] running install_lib
+[0.795s] creating /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages/py_service
+[0.795s] copying /home/wyp/test/robot_learning/week2/sev_ws/build/py_service/build/lib/py_service/learn_to_detect.py -> /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages/py_service
+[0.795s] copying /home/wyp/test/robot_learning/week2/sev_ws/build/py_service/build/lib/py_service/face_detect.py -> /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages/py_service
+[0.796s] copying /home/wyp/test/robot_learning/week2/sev_ws/build/py_service/build/lib/py_service/detect_client.py -> /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages/py_service
+[0.796s] copying /home/wyp/test/robot_learning/week2/sev_ws/build/py_service/build/lib/py_service/__init__.py -> /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages/py_service
+[0.796s] byte-compiling /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages/py_service/learn_to_detect.py to learn_to_detect.cpython-310.pyc
+[0.796s] byte-compiling /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages/py_service/face_detect.py to face_detect.cpython-310.pyc
+[0.797s] byte-compiling /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages/py_service/detect_client.py to detect_client.cpython-310.pyc
+[0.798s] byte-compiling /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages/py_service/__init__.py to __init__.cpython-310.pyc
+[0.798s] running install_data
+[0.798s] creating /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/share/ament_index/resource_index/packages
+[0.798s] copying resource/py_service -> /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/share/ament_index/resource_index/packages
+[0.798s] copying package.xml -> /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/share/py_service
+[0.798s] creating /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/share/py_service/resource
+[0.798s] copying resource/default.png -> /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/share/py_service/resource
+[0.799s] copying resource/test1.png -> /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/share/py_service/resource
+[0.801s] copying resource/test2.png -> /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/share/py_service/resource
+[0.802s] copying resource/test3.png -> /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/share/py_service/resource
+[0.803s] creating /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/share/py_service/launch
+[0.803s] copying launch/test.launch.py -> /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/share/py_service/launch
+[0.803s] running install_egg_info
+[0.817s] Copying ../../build/py_service/py_service.egg-info to /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages/py_service-0.0.0-py3.10.egg-info
+[0.817s] running install_scripts
+[0.900s] Installing detect_client script to /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/py_service
+[0.900s] Installing face_detect script to /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/py_service
+[0.900s] Installing learn_to_detect script to /home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/py_service
+[0.900s] writing list of installed files to '/home/wyp/test/robot_learning/week2/sev_ws/build/py_service/install.log'
+[0.924s] Invoked command in '/home/wyp/test/robot_learning/week2/sev_ws/src/py_service' returned '0': CONDA_PROMPT_MODIFIER=(robopy) PYTHONPATH=/home/wyp/test/robot_learning/week2/sev_ws/build/py_service/prefix_override:/home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /home/wyp/miniconda3/envs/robopy/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_service build --build-base /home/wyp/test/robot_learning/week2/sev_ws/build/py_service/build install --record /home/wyp/test/robot_learning/week2/sev_ws/build/py_service/install.log --install-scripts $base/lib/py_service --single-version-externally-managed install_data

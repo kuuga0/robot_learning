@@ -9,10 +9,16 @@ setup.py
 ../../build/py_service/py_service.egg-info/requires.txt
 ../../build/py_service/py_service.egg-info/top_level.txt
 ../../build/py_service/py_service.egg-info/zip-safe
+launch/test.launch.py
 py_service/__init__.py
+py_service/detect_client.py
+py_service/face_detect.py
 py_service/learn_to_detect.py
 resource/default.png
 resource/py_service
+resource/test1.png
+resource/test2.png
+resource/test3.png
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
