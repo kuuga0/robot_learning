@@ -5,6 +5,11 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/robot_interfaces/msg/detail/robot_status__traits.hpp"
   "rosidl_generator_cpp/robot_interfaces/msg/detail/robot_status__type_support.hpp"
   "rosidl_generator_cpp/robot_interfaces/msg/robot_status.hpp"
+  "rosidl_generator_cpp/robot_interfaces/srv/detail/torque_set__builder.hpp"
+  "rosidl_generator_cpp/robot_interfaces/srv/detail/torque_set__struct.hpp"
+  "rosidl_generator_cpp/robot_interfaces/srv/detail/torque_set__traits.hpp"
+  "rosidl_generator_cpp/robot_interfaces/srv/detail/torque_set__type_support.hpp"
+  "rosidl_generator_cpp/robot_interfaces/srv/torque_set.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

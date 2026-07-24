@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_interfaces/srv/TorqueSet.srv
+// generated code does not contain a copyright notice
+
+
+module robot_interfaces {
+  module srv {
+    struct TorqueSet_Request {
+      @verbatim (language="comment", text=
+        "力矩")
+      double torque;
+    };
+    struct TorqueSet_Response {
+      @verbatim (language="comment", text=
+        "成功")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "消息")
+      string msg;
+    };
+  };
+};

@@ -1,0 +1,352 @@
+[0.010s] Invoking command in '/home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control:/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim:/home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robopy) /usr/bin/cmake /home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_interfaces -DCMAKE_INSTALL_PREFIX=/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces
+[0.066s] -- The C compiler identification is GNU 11.4.0
+[0.116s] -- The CXX compiler identification is GNU 11.4.0
+[0.124s] -- Detecting C compiler ABI info
+[0.193s] -- Detecting C compiler ABI info - done
+[0.198s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.198s] -- Detecting C compile features
+[0.198s] -- Detecting C compile features - done
+[0.200s] -- Detecting CXX compiler ABI info
+[0.275s] -- Detecting CXX compiler ABI info - done
+[0.281s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.281s] -- Detecting CXX compile features
+[0.281s] -- Detecting CXX compile features - done
+[0.284s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.595s] -- Found Python3: /home/wyp/miniconda3/envs/robopy/bin/python3 (found version "3.10.20") found components: Interpreter 
+[0.683s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.686s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.693s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.730s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.762s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.773s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.058s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.262s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.528s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.546s] -- Found PythonInterp: /home/wyp/miniconda3/envs/robopy/bin/python3 (found suitable version "3.10.20", minimum required is "3.6") 
+[1.548s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.564s] -- Found PythonLibs: /home/wyp/miniconda3/envs/robopy/lib/libpython3.10.so (found suitable version "3.10.20", minimum required is "3.5") 
+[1.564s] -- Using PYTHON_EXECUTABLE: /home/wyp/miniconda3/envs/robopy/bin/python3
+[1.564s] -- Using PYTHON_INCLUDE_DIRS: /home/wyp/miniconda3/envs/robopy/include/python3.10
+[1.564s] -- Using PYTHON_LIBRARIES: /home/wyp/miniconda3/envs/robopy/lib/libpython3.10.so
+[1.580s] -- Found PythonExtra: .so  
+[1.732s] -- Using numpy include directory: /home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/core/include
+[1.812s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.831s] -- Added test 'lint_cmake' to check CMake code style
+[1.832s] -- Added test 'xmllint' to check XML markup files
+[1.836s] -- Configuring done
+[1.858s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:166 (add_library):
+[1.858s]   Cannot generate a safe runtime search path for target
+[1.858s]   mj_interfaces__rosidl_generator_py because files in some directories may
+[1.858s]   conflict with libraries in implicit directories:
+[1.858s] 
+[1.859s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.859s]       /home/wyp/miniconda3/envs/robopy/lib
+[1.859s] 
+[1.859s]   Some of these libraries may not be found correctly.
+[1.859s] Call Stack (most recent call first):
+[1.859s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.859s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.859s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.859s] 
+[1.859s] [0m
+[1.861s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[1.861s]   Cannot generate a safe runtime search path for target
+[1.861s]   mj_interfaces__rosidl_typesupport_fastrtps_c__pyext because files in some
+[1.861s]   directories may conflict with libraries in implicit directories:
+[1.861s] 
+[1.861s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.861s]       /home/wyp/miniconda3/envs/robopy/lib
+[1.861s] 
+[1.861s]   Some of these libraries may not be found correctly.
+[1.861s] Call Stack (most recent call first):
+[1.861s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.861s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.861s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.861s] 
+[1.861s] [0m
+[1.863s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[1.863s]   Cannot generate a safe runtime search path for target
+[1.863s]   mj_interfaces__rosidl_typesupport_introspection_c__pyext because files in
+[1.863s]   some directories may conflict with libraries in implicit directories:
+[1.863s] 
+[1.863s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.863s]       /home/wyp/miniconda3/envs/robopy/lib
+[1.863s] 
+[1.863s]   Some of these libraries may not be found correctly.
+[1.863s] Call Stack (most recent call first):
+[1.863s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.863s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.863s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.863s] 
+[1.863s] [0m
+[1.865s] [33mCMake Warning at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):
+[1.865s]   Cannot generate a safe runtime search path for target
+[1.865s]   mj_interfaces__rosidl_typesupport_c__pyext because files in some
+[1.865s]   directories may conflict with libraries in implicit directories:
+[1.865s] 
+[1.865s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.865s]       /home/wyp/miniconda3/envs/robopy/lib
+[1.865s] 
+[1.865s]   Some of these libraries may not be found correctly.
+[1.865s] Call Stack (most recent call first):
+[1.865s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.865s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.866s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[1.866s] 
+[1.866s] [0m
+[1.872s] -- Generating done
+[1.882s] -- Build files have been written to: /home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_interfaces
+[1.893s] Invoked command in '/home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control:/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim:/home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robopy) /usr/bin/cmake /home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_interfaces -DCMAKE_INSTALL_PREFIX=/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces
+[1.894s] Invoking command in '/home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control:/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim:/home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robopy) /usr/bin/cmake --build /home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_interfaces -- -j12 -l12
+[1.940s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.950s] [  7%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.951s] [  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.959s] [  7%] Built target ament_cmake_python_copy_mj_interfaces
+[2.157s] running egg_info
+[2.171s] creating mj_interfaces.egg-info
+[2.171s] writing mj_interfaces.egg-info/PKG-INFO
+[2.171s] writing dependency_links to mj_interfaces.egg-info/dependency_links.txt
+[2.171s] writing top-level names to mj_interfaces.egg-info/top_level.txt
+[2.171s] writing manifest file 'mj_interfaces.egg-info/SOURCES.txt'
+[2.213s] reading manifest file 'mj_interfaces.egg-info/SOURCES.txt'
+[2.214s] writing manifest file 'mj_interfaces.egg-info/SOURCES.txt'
+[2.251s] [  7%] Built target ament_cmake_python_build_mj_interfaces_egg
+[2.262s] [  7%] Built target mj_interfaces__rs
+[2.306s] [ 12%] [32mBuilding C object CMakeFiles/mj_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mj_interfaces/msg/detail/ip_interface__functions.c.o[0m
+[2.306s] [ 12%] [32mBuilding C object CMakeFiles/mj_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mj_interfaces/srv/detail/torque_srv__functions.c.o[0m
+[2.306s] [ 12%] Built target mj_interfaces__cpp
+[2.317s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.318s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.318s] [ 20%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.359s] [ 22%] [32m[1mLinking C shared library libmj_interfaces__rosidl_generator_c.so[0m
+[2.404s] [ 22%] Built target mj_interfaces__rosidl_generator_c
+[2.416s] [ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.416s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.417s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.639s] [ 35%] [32mBuilding CXX object CMakeFiles/mj_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mj_interfaces/srv/torque_srv__type_support.cpp.o[0m
+[2.639s] [ 35%] [32mBuilding CXX object CMakeFiles/mj_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mj_interfaces/msg/ip_interface__type_support.cpp.o[0m
+[2.652s] [ 37%] [32mBuilding CXX object CMakeFiles/mj_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mj_interfaces/msg/detail/ip_interface__type_support.cpp.o[0m
+[2.658s] [ 40%] [32mBuilding CXX object CMakeFiles/mj_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mj_interfaces/srv/detail/torque_srv__type_support.cpp.o[0m
+[2.686s] [ 45%] [32mBuilding CXX object CMakeFiles/mj_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mj_interfaces/msg/detail/dds_fastrtps/ip_interface__type_support.cpp.o[0m
+[2.686s] [ 45%] [32mBuilding CXX object CMakeFiles/mj_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mj_interfaces/srv/detail/dds_fastrtps/torque_srv__type_support.cpp.o[0m
+[2.756s] [ 47%] [32mBuilding CXX object CMakeFiles/mj_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mj_interfaces/msg/ip_interface__type_support.cpp.o[0m
+[2.759s] [ 50%] [32mBuilding CXX object CMakeFiles/mj_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mj_interfaces/srv/torque_srv__type_support.cpp.o[0m
+[2.808s] [ 52%] [32m[1mLinking CXX shared library libmj_interfaces__rosidl_typesupport_c.so[0m
+[2.843s] [ 55%] [32mBuilding C object CMakeFiles/mj_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mj_interfaces/srv/detail/torque_srv__type_support.c.o[0m
+[2.843s] [ 57%] [32mBuilding C object CMakeFiles/mj_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mj_interfaces/msg/detail/ip_interface__type_support.c.o[0m
+[2.852s] [ 60%] [32mBuilding CXX object CMakeFiles/mj_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mj_interfaces/srv/detail/torque_srv__type_support_c.cpp.o[0m
+[2.854s] [ 62%] [32mBuilding CXX object CMakeFiles/mj_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mj_interfaces/msg/detail/ip_interface__type_support_c.cpp.o[0m
+[2.878s] [ 62%] Built target mj_interfaces__rosidl_typesupport_c
+[2.904s] [ 65%] [32m[1mLinking C shared library libmj_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.959s] [ 65%] Built target mj_interfaces__rosidl_typesupport_introspection_c
+[2.975s] [ 67%] [32m[1mLinking CXX shared library libmj_interfaces__rosidl_typesupport_cpp.so[0m
+[3.019s] [ 67%] Built target mj_interfaces__rosidl_typesupport_cpp
+[3.115s] [ 70%] [32m[1mLinking CXX shared library libmj_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.178s] [ 72%] [32m[1mLinking CXX shared library libmj_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.189s] [ 72%] Built target mj_interfaces__rosidl_typesupport_introspection_cpp
+[3.210s] [ 75%] [32m[1mLinking CXX shared library libmj_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.265s] [ 75%] Built target mj_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.287s] [ 75%] Built target mj_interfaces__rosidl_typesupport_fastrtps_c
+[3.308s] [ 75%] Built target mj_interfaces
+[3.331s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.793s] [ 77%] Built target mj_interfaces__py
+[3.813s] [ 82%] [32mBuilding C object CMakeFiles/mj_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mj_interfaces/msg/_ip_interface_s.c.o[0m
+[3.813s] [ 82%] [32mBuilding C object CMakeFiles/mj_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mj_interfaces/srv/_torque_srv_s.c.o[0m
+[3.905s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/mj_interfaces/libmj_interfaces__rosidl_generator_py.so[0m
+[3.945s] [ 85%] Built target mj_interfaces__rosidl_generator_py
+[3.968s] [ 92%] [32mBuilding C object CMakeFiles/mj_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mj_interfaces/_mj_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.968s] [ 92%] [32mBuilding C object CMakeFiles/mj_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mj_interfaces/_mj_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.968s] [ 92%] [32mBuilding C object CMakeFiles/mj_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mj_interfaces/_mj_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.060s] [100%] [32m[1mLinking C shared library rosidl_generator_py/mj_interfaces/mj_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.060s] [100%] [32m[1mLinking C shared library rosidl_generator_py/mj_interfaces/mj_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.060s] [100%] [32m[1mLinking C shared library rosidl_generator_py/mj_interfaces/mj_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.100s] [100%] Built target mj_interfaces__rosidl_typesupport_c__pyext
+[4.100s] [100%] Built target mj_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.101s] [100%] Built target mj_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.111s] Invoked command in '/home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control:/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim:/home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robopy) /usr/bin/cmake --build /home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_interfaces -- -j12 -l12
+[4.125s] Invoking command in '/home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control:/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim:/home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robopy) /usr/bin/cmake --install /home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_interfaces
+[4.132s] -- Install configuration: ""
+[4.133s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/ament_index/resource_index/rosidl_interfaces/mj_interfaces
+[4.133s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces
+[4.133s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv
+[4.133s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv/torque_srv.h
+[4.133s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv/detail
+[4.133s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv/detail/torque_srv__functions.c
+[4.134s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv/detail/torque_srv__type_support.h
+[4.134s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv/detail/torque_srv__functions.h
+[4.134s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv/detail/torque_srv__struct.h
+[4.134s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg
+[4.134s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.134s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/ip_interface.h
+[4.135s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/detail
+[4.135s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/detail/ip_interface__functions.c
+[4.135s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/detail/ip_interface__type_support.h
+[4.135s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/detail/ip_interface__functions.h
+[4.135s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/detail/ip_interface__struct.h
+[4.135s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/environment/library_path.sh
+[4.136s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/environment/library_path.dsv
+[4.136s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/libmj_interfaces__rosidl_generator_c.so
+[4.136s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/libmj_interfaces__rosidl_generator_c.so" to ""
+[4.136s] -- Up-to-date: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces
+[4.137s] -- Up-to-date: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv
+[4.137s] -- Up-to-date: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv/detail
+[4.137s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv/detail/torque_srv__rosidl_typesupport_fastrtps_c.h
+[4.137s] -- Up-to-date: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg
+[4.137s] -- Up-to-date: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/detail
+[4.137s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/detail/ip_interface__rosidl_typesupport_fastrtps_c.h
+[4.137s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.137s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/libmj_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.138s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/libmj_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.138s] -- Up-to-date: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces
+[4.138s] -- Up-to-date: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv
+[4.138s] -- Up-to-date: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv/detail
+[4.138s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv/detail/torque_srv__rosidl_typesupport_introspection_c.h
+[4.138s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv/detail/torque_srv__type_support.c
+[4.138s] -- Up-to-date: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg
+[4.138s] -- Up-to-date: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/detail
+[4.138s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/detail/ip_interface__rosidl_typesupport_introspection_c.h
+[4.139s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/detail/ip_interface__type_support.c
+[4.139s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.139s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/libmj_interfaces__rosidl_typesupport_introspection_c.so
+[4.139s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/libmj_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.140s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/libmj_interfaces__rosidl_typesupport_c.so
+[4.140s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/libmj_interfaces__rosidl_typesupport_c.so" to ""
+[4.140s] -- Up-to-date: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces
+[4.140s] -- Up-to-date: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv
+[4.140s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv/torque_srv.hpp
+[4.140s] -- Up-to-date: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv/detail
+[4.140s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv/detail/torque_srv__builder.hpp
+[4.140s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv/detail/torque_srv__type_support.hpp
+[4.141s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv/detail/torque_srv__traits.hpp
+[4.141s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv/detail/torque_srv__struct.hpp
+[4.141s] -- Up-to-date: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg
+[4.141s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/ip_interface.hpp
+[4.141s] -- Up-to-date: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/detail
+[4.141s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/detail/ip_interface__builder.hpp
+[4.141s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/detail/ip_interface__struct.hpp
+[4.142s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/detail/ip_interface__traits.hpp
+[4.142s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/detail/ip_interface__type_support.hpp
+[4.142s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.142s] -- Up-to-date: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces
+[4.142s] -- Up-to-date: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv
+[4.142s] -- Up-to-date: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv/detail
+[4.142s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv/detail/dds_fastrtps
+[4.142s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv/detail/torque_srv__rosidl_typesupport_fastrtps_cpp.hpp
+[4.142s] -- Up-to-date: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg
+[4.142s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.143s] -- Up-to-date: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/detail
+[4.143s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/detail/ip_interface__rosidl_typesupport_fastrtps_cpp.hpp
+[4.143s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/detail/dds_fastrtps
+[4.143s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/libmj_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.143s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/libmj_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.143s] -- Up-to-date: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces
+[4.143s] -- Up-to-date: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv
+[4.143s] -- Up-to-date: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv/detail
+[4.144s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv/detail/torque_srv__rosidl_typesupport_introspection_cpp.hpp
+[4.144s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/srv/detail/torque_srv__type_support.cpp
+[4.144s] -- Up-to-date: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg
+[4.144s] -- Up-to-date: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/detail
+[4.144s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/detail/ip_interface__rosidl_typesupport_introspection_cpp.hpp
+[4.144s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/include/mj_interfaces/mj_interfaces/msg/detail/ip_interface__type_support.cpp
+[4.144s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/libmj_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.145s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/libmj_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.145s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/libmj_interfaces__rosidl_typesupport_cpp.so
+[4.145s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/libmj_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.145s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/environment/pythonpath.sh
+[4.145s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/environment/pythonpath.dsv
+[4.146s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces-0.0.0-py3.10.egg-info
+[4.146s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.146s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.146s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.146s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.146s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces
+[4.147s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/mj_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.147s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/srv
+[4.147s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/srv/_torque_srv.py
+[4.147s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/srv/_torque_srv_s.c
+[4.147s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/srv/__init__.py
+[4.147s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/libmj_interfaces__rosidl_generator_py.so
+[4.148s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/_mj_interfaces_s.ep.rosidl_typesupport_c.c
+[4.148s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/_mj_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.148s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/mj_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.148s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/mj_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.148s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/msg
+[4.148s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/msg/_ip_interface.py
+[4.149s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/msg/__init__.py
+[4.149s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/msg/_ip_interface_s.c
+[4.149s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/_mj_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.149s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/__init__.py
+[4.185s] Listing '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces'...
+[4.185s] Compiling '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/__init__.py'...
+[4.185s] Listing '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/msg'...
+[4.185s] Compiling '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/msg/__init__.py'...
+[4.185s] Compiling '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/msg/_ip_interface.py'...
+[4.185s] Listing '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/srv'...
+[4.185s] Compiling '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/srv/__init__.py'...
+[4.185s] Compiling '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/srv/_torque_srv.py'...
+[4.190s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/mj_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.191s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/mj_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.191s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/mj_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.191s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/mj_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.191s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/mj_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.192s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages/mj_interfaces/mj_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.192s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/libmj_interfaces__rosidl_generator_py.so
+[4.192s] -- Set runtime path of "/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/libmj_interfaces__rosidl_generator_py.so" to ""
+[4.192s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/ament_index/resource_index/rust_packages/mj_interfaces
+[4.192s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/rust
+[4.192s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/rust/Cargo.toml
+[4.193s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/rust/src
+[4.193s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/rust/src/srv
+[4.193s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/rust/src/srv/rmw.rs
+[4.193s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/rust/src/msg.rs
+[4.193s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/rust/src/srv.rs
+[4.193s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/rust/src/lib.rs
+[4.193s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/rust/src/msg
+[4.193s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/rust/src/msg/rmw.rs
+[4.194s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/rust/build.rs
+[4.194s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/msg/IpInterface.idl
+[4.194s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/srv/TorqueSrv.idl
+[4.194s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/msg/IpInterface.msg
+[4.194s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/srv/TorqueSrv.srv
+[4.194s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/srv/TorqueSrv_Request.msg
+[4.195s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/srv/TorqueSrv_Response.msg
+[4.195s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/ament_index/resource_index/package_run_dependencies/mj_interfaces
+[4.195s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/ament_index/resource_index/parent_prefix_path/mj_interfaces
+[4.195s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/environment/ament_prefix_path.sh
+[4.195s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/environment/ament_prefix_path.dsv
+[4.196s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/environment/path.sh
+[4.196s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/environment/path.dsv
+[4.196s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/local_setup.bash
+[4.196s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/local_setup.sh
+[4.196s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/local_setup.zsh
+[4.196s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/local_setup.dsv
+[4.196s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/package.dsv
+[4.197s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/ament_index/resource_index/packages/mj_interfaces
+[4.197s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/cmake/export_mj_interfaces__rosidl_generator_cExport.cmake
+[4.197s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/cmake/export_mj_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.197s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/cmake/export_mj_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.197s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/cmake/export_mj_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.198s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/cmake/mj_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.198s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/cmake/mj_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.198s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/cmake/mj_interfaces__rosidl_typesupport_cExport.cmake
+[4.198s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/cmake/mj_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.198s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/cmake/export_mj_interfaces__rosidl_generator_cppExport.cmake
+[4.198s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/cmake/export_mj_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.199s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/cmake/export_mj_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.199s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/cmake/mj_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.199s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/cmake/mj_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.199s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/cmake/mj_interfaces__rosidl_typesupport_cppExport.cmake
+[4.199s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/cmake/mj_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.200s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/cmake/export_mj_interfaces__rosidl_generator_pyExport.cmake
+[4.200s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/cmake/export_mj_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.200s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.200s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.200s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.200s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.201s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.201s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.201s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.201s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/cmake/mj_interfacesConfig.cmake
+[4.201s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/cmake/mj_interfacesConfig-version.cmake
+[4.201s] -- Installing: /home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/package.xml
+[4.204s] Invoked command in '/home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control:/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim:/home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robopy) /usr/bin/cmake --install /home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_interfaces

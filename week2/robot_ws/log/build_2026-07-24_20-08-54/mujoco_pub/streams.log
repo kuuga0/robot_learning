@@ -1,0 +1,40 @@
+[0.546s] Invoking command in '/home/wyp/test/robot_learning/week2/robot_ws/src/mujoco_pub': CONDA_PROMPT_MODIFIER=(robopy) PYTHONPATH=/home/wyp/test/robot_learning/week2/robot_ws/build/mujoco_pub/prefix_override:/home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/robot_ws/install/robot_interfaces/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /home/wyp/miniconda3/envs/robopy/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mujoco_pub build --build-base /home/wyp/test/robot_learning/week2/robot_ws/build/mujoco_pub/build install --record /home/wyp/test/robot_learning/week2/robot_ws/build/mujoco_pub/install.log --install-scripts $base/lib/mujoco_pub --single-version-externally-managed install_data
+[0.752s] running egg_info
+[0.765s] creating ../../build/mujoco_pub/mujoco_pub.egg-info
+[0.765s] writing ../../build/mujoco_pub/mujoco_pub.egg-info/PKG-INFO
+[0.766s] writing dependency_links to ../../build/mujoco_pub/mujoco_pub.egg-info/dependency_links.txt
+[0.766s] writing entry points to ../../build/mujoco_pub/mujoco_pub.egg-info/entry_points.txt
+[0.766s] writing requirements to ../../build/mujoco_pub/mujoco_pub.egg-info/requires.txt
+[0.766s] writing top-level names to ../../build/mujoco_pub/mujoco_pub.egg-info/top_level.txt
+[0.766s] writing manifest file '../../build/mujoco_pub/mujoco_pub.egg-info/SOURCES.txt'
+[0.793s] reading manifest file '../../build/mujoco_pub/mujoco_pub.egg-info/SOURCES.txt'
+[0.793s] adding license file 'LICENSE'
+[0.794s] writing manifest file '../../build/mujoco_pub/mujoco_pub.egg-info/SOURCES.txt'
+[0.794s] running build
+[0.794s] running build_py
+[0.794s] creating /home/wyp/test/robot_learning/week2/robot_ws/build/mujoco_pub/build/lib/mujoco_pub
+[0.795s] copying mujoco_pub/pub_node.py -> /home/wyp/test/robot_learning/week2/robot_ws/build/mujoco_pub/build/lib/mujoco_pub
+[0.795s] copying mujoco_pub/mujoco_srv.py -> /home/wyp/test/robot_learning/week2/robot_ws/build/mujoco_pub/build/lib/mujoco_pub
+[0.795s] copying mujoco_pub/__init__.py -> /home/wyp/test/robot_learning/week2/robot_ws/build/mujoco_pub/build/lib/mujoco_pub
+[0.795s] running install
+[0.798s] running install_lib
+[0.812s] creating /home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub/lib/python3.10/site-packages/mujoco_pub
+[0.812s] copying /home/wyp/test/robot_learning/week2/robot_ws/build/mujoco_pub/build/lib/mujoco_pub/pub_node.py -> /home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub/lib/python3.10/site-packages/mujoco_pub
+[0.812s] copying /home/wyp/test/robot_learning/week2/robot_ws/build/mujoco_pub/build/lib/mujoco_pub/mujoco_srv.py -> /home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub/lib/python3.10/site-packages/mujoco_pub
+[0.812s] copying /home/wyp/test/robot_learning/week2/robot_ws/build/mujoco_pub/build/lib/mujoco_pub/__init__.py -> /home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub/lib/python3.10/site-packages/mujoco_pub
+[0.813s] byte-compiling /home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub/lib/python3.10/site-packages/mujoco_pub/pub_node.py to pub_node.cpython-310.pyc
+[0.813s] byte-compiling /home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub/lib/python3.10/site-packages/mujoco_pub/mujoco_srv.py to mujoco_srv.cpython-310.pyc
+[0.813s] byte-compiling /home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub/lib/python3.10/site-packages/mujoco_pub/__init__.py to __init__.cpython-310.pyc
+[0.813s] running install_data
+[0.814s] creating /home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub/share/ament_index/resource_index/packages
+[0.814s] copying resource/mujoco_pub -> /home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub/share/ament_index/resource_index/packages
+[0.814s] copying package.xml -> /home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub/share/mujoco_pub
+[0.814s] creating /home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub/share/mujoco_pub/launch
+[0.814s] copying launch/mujocoparam.launch.py -> /home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub/share/mujoco_pub/launch
+[0.814s] running install_egg_info
+[0.828s] Copying ../../build/mujoco_pub/mujoco_pub.egg-info to /home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub/lib/python3.10/site-packages/mujoco_pub-0.0.0-py3.10.egg-info
+[0.829s] running install_scripts
+[0.916s] Installing robot_ip script to /home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub/lib/mujoco_pub
+[0.917s] Installing torque_set_service script to /home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub/lib/mujoco_pub
+[0.917s] writing list of installed files to '/home/wyp/test/robot_learning/week2/robot_ws/build/mujoco_pub/install.log'
+[0.942s] Invoked command in '/home/wyp/test/robot_learning/week2/robot_ws/src/mujoco_pub' returned '0': CONDA_PROMPT_MODIFIER=(robopy) PYTHONPATH=/home/wyp/test/robot_learning/week2/robot_ws/build/mujoco_pub/prefix_override:/home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/robot_ws/install/robot_interfaces/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /home/wyp/miniconda3/envs/robopy/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mujoco_pub build --build-base /home/wyp/test/robot_learning/week2/robot_ws/build/mujoco_pub/build install --record /home/wyp/test/robot_learning/week2/robot_ws/build/mujoco_pub/install.log --install-scripts $base/lib/mujoco_pub --single-version-externally-managed install_data

@@ -78,6 +78,7 @@ rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_status__r
 rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em
 rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em
 rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/robot_interfaces/msg/RobotStatus.idl
+rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp: rosidl_adapter/robot_interfaces/srv/TorqueSet.idl
 rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -145,8 +146,14 @@ rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_status__r
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ introspection for ROS interfaces"
 	/home/wyp/miniconda3/envs/robopy/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp --generator-arguments-file /home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_typesupport_introspection_cpp__arguments.json
 
+rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/torque_set__rosidl_typesupport_introspection_cpp.hpp: rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/torque_set__rosidl_typesupport_introspection_cpp.hpp
+
 rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_status__type_support.cpp: rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_status__type_support.cpp
+
+rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/torque_set__type_support.cpp: rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/torque_set__type_support.cpp
 
 CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_status__type_support.cpp.o: CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/flags.make
 CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_status__type_support.cpp.o: rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_status__type_support.cpp
@@ -162,14 +169,30 @@ CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typ
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_status__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_status__type_support.cpp -o CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_status__type_support.cpp.s
 
+CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/torque_set__type_support.cpp.o: CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/flags.make
+CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/torque_set__type_support.cpp.o: rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/torque_set__type_support.cpp
+CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/torque_set__type_support.cpp.o: CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/torque_set__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/torque_set__type_support.cpp.o -MF CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/torque_set__type_support.cpp.o.d -o CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/torque_set__type_support.cpp.o -c /home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/torque_set__type_support.cpp
+
+CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/torque_set__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/torque_set__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/torque_set__type_support.cpp > CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/torque_set__type_support.cpp.i
+
+CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/torque_set__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/torque_set__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/torque_set__type_support.cpp -o CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/torque_set__type_support.cpp.s
+
 # Object files for target robot_interfaces__rosidl_typesupport_introspection_cpp
 robot_interfaces__rosidl_typesupport_introspection_cpp_OBJECTS = \
-"CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_status__type_support.cpp.o"
+"CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_status__type_support.cpp.o" \
+"CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/torque_set__type_support.cpp.o"
 
 # External object files for target robot_interfaces__rosidl_typesupport_introspection_cpp
 robot_interfaces__rosidl_typesupport_introspection_cpp_EXTERNAL_OBJECTS =
 
 librobot_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_status__type_support.cpp.o
+librobot_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/torque_set__type_support.cpp.o
 librobot_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make
 librobot_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
 librobot_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
@@ -179,7 +202,7 @@ librobot_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/li
 librobot_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 librobot_interfaces__rosidl_typesupport_introspection_cpp.so: /opt/ros/humble/lib/librcutils.so
 librobot_interfaces__rosidl_typesupport_introspection_cpp.so: CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library librobot_interfaces__rosidl_typesupport_introspection_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library librobot_interfaces__rosidl_typesupport_introspection_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -192,6 +215,8 @@ CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/clean:
 
 CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp
 CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/robot_status__type_support.cpp
+CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/torque_set__rosidl_typesupport_introspection_cpp.hpp
+CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/depend: rosidl_typesupport_introspection_cpp/robot_interfaces/srv/detail/torque_set__type_support.cpp
 	cd /home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wyp/test/robot_learning/week2/robot_ws/src/robot_interfaces /home/wyp/test/robot_learning/week2/robot_ws/src/robot_interfaces /home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces /home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces /home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/depend
 

@@ -3,7 +3,8 @@
   "output_dir": "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_typesupport_introspection_c/robot_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource",
   "idl_tuples": [
-    "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_adapter/robot_interfaces:msg/RobotStatus.idl"
+    "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_adapter/robot_interfaces:msg/RobotStatus.idl",
+    "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_adapter/robot_interfaces:srv/TorqueSet.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -81,6 +82,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
     "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_adapter/robot_interfaces/msg/RobotStatus.idl",
+    "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_adapter/robot_interfaces/srv/TorqueSet.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

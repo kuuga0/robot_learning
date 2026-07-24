@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mj_interfaces/msg/IpInterface.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+
+module mj_interfaces {
+  module msg {
+    struct IpInterface {
+      @verbatim (language="comment", text=
+        "时间戳")
+      builtin_interfaces::msg::Time stamp;
+
+      @verbatim (language="comment", text=
+        "角度")
+      double theta;
+
+      @verbatim (language="comment", text=
+        "角速度")
+      geometry_msgs::msg::Vector3 omega;
+
+      @verbatim (language="comment", text=
+        "力矩")
+      geometry_msgs::msg::Vector3 torque;
+
+      @verbatim (language="comment", text=
+        "末端位置")
+      geometry_msgs::msg::Point position;
+    };
+  };
+};

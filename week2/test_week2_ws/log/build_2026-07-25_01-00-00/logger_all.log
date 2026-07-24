@@ -1,0 +1,264 @@
+[0.147s] DEBUG:colcon:Command line arguments: ['/home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/colcon/__main__.py', 'build']
+[0.147s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x792c22beefe0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x792c22beea40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x792c22beea40>>)
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.187s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/wyp/test/robot_learning/week2/test_week2_ws'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/mj_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/mj_interfaces) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/mj_interfaces) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/mj_interfaces) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/mj_interfaces) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/mj_interfaces) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/mj_interfaces) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/mj_interfaces) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/mj_interfaces) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mj_interfaces' with type 'ros.ament_cmake' and name 'mj_interfaces'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/mj_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/mj_sim) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/mj_sim) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/mj_sim) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/mj_sim) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/mj_sim) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/mj_sim) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/mj_sim) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/mj_sim) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mj_sim' with type 'ros.ament_python' and name 'mj_sim'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/out_control) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/out_control) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/out_control) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/out_control) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/out_control) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/out_control) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/out_control) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/out_control) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/out_control) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'src/out_control' with type 'ros.ament_python' and name 'out_control'
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'mj_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'mj_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'mj_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'mj_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'mj_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'mj_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'mj_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'mj_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'mj_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.238s] DEBUG:colcon.colcon_core.verb:Building package 'mj_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces', 'merge_install': False, 'path': '/home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'mj_sim' build argument 'cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'mj_sim' build argument 'cmake_target' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'mj_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'mj_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'mj_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'mj_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'mj_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'mj_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'mj_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.239s] DEBUG:colcon.colcon_core.verb:Building package 'mj_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim', 'merge_install': False, 'path': '/home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_sim', 'symlink_install': False, 'test_result_base': None}
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'out_control' build argument 'cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'out_control' build argument 'cmake_target' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'out_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'out_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'out_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'out_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'out_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'out_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.239s] Level 5:colcon.colcon_core.verb:set package 'out_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.239s] DEBUG:colcon.colcon_core.verb:Building package 'out_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wyp/test/robot_learning/week2/test_week2_ws/build/out_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control', 'merge_install': False, 'path': '/home/wyp/test/robot_learning/week2/test_week2_ws/src/out_control', 'symlink_install': False, 'test_result_base': None}
+[0.239s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.240s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.240s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_interfaces' with build type 'ament_cmake'
+[0.241s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_interfaces'
+[0.242s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.242s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.242s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.243s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_interfaces/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.243s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.243s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.243s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_interfaces/install/mj_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.243s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.243s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_interfaces/install/mj_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.243s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control:/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim:/home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robopy) /usr/bin/cmake /home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_interfaces -DCMAKE_INSTALL_PREFIX=/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces
+[2.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control:/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim:/home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robopy) /usr/bin/cmake /home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_interfaces -DCMAKE_INSTALL_PREFIX=/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces
+[2.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control:/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim:/home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robopy) /usr/bin/cmake --build /home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_interfaces -- -j12 -l12
+[4.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control:/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim:/home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robopy) /usr/bin/cmake --build /home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_interfaces -- -j12 -l12
+[4.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control:/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim:/home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robopy) /usr/bin/cmake --install /home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_interfaces
+[4.444s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mj_interfaces)
+[4.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control:/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim:/home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service:/opt/ros/humble CONDA_PROMPT_MODIFIER=(robopy) /usr/bin/cmake --install /home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_interfaces
+[4.447s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces' for CMake module files
+[4.447s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces' for CMake config files
+[4.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('mj_interfaces', 'cmake_prefix_path')
+[4.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/hook/cmake_prefix_path.ps1'
+[4.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/hook/cmake_prefix_path.dsv'
+[4.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/hook/cmake_prefix_path.sh'
+[4.450s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib'
+[4.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('mj_interfaces', 'ld_library_path_lib')
+[4.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/hook/ld_library_path_lib.ps1'
+[4.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/hook/ld_library_path_lib.dsv'
+[4.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/hook/ld_library_path_lib.sh'
+[4.451s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/bin'
+[4.451s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/pkgconfig/mj_interfaces.pc'
+[4.452s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages'
+[4.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('mj_interfaces', 'pythonpath')
+[4.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/hook/pythonpath.ps1'
+[4.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/hook/pythonpath.dsv'
+[4.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/hook/pythonpath.sh'
+[4.453s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/bin'
+[4.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/package.ps1'
+[4.454s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/package.dsv'
+[4.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/package.sh'
+[4.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/package.bash'
+[4.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/package.zsh'
+[4.456s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/colcon-core/packages/mj_interfaces)
+[4.457s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mj_interfaces)
+[4.457s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces' for CMake module files
+[4.458s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces' for CMake config files
+[4.459s] Level 1:colcon.colcon_core.shell:create_environment_hook('mj_interfaces', 'cmake_prefix_path')
+[4.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/hook/cmake_prefix_path.ps1'
+[4.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/hook/cmake_prefix_path.dsv'
+[4.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/hook/cmake_prefix_path.sh'
+[4.460s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib'
+[4.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('mj_interfaces', 'ld_library_path_lib')
+[4.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/hook/ld_library_path_lib.ps1'
+[4.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/hook/ld_library_path_lib.dsv'
+[4.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/hook/ld_library_path_lib.sh'
+[4.461s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/bin'
+[4.461s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/pkgconfig/mj_interfaces.pc'
+[4.462s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages'
+[4.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('mj_interfaces', 'pythonpath')
+[4.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/hook/pythonpath.ps1'
+[4.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/hook/pythonpath.dsv'
+[4.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/hook/pythonpath.sh'
+[4.463s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/bin'
+[4.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/package.ps1'
+[4.463s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/package.dsv'
+[4.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/package.sh'
+[4.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/package.bash'
+[4.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/mj_interfaces/package.zsh'
+[4.465s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/share/colcon-core/packages/mj_interfaces)
+[4.465s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_sim' with build type 'ament_python'
+[4.465s] Level 1:colcon.colcon_core.shell:create_environment_hook('mj_sim', 'ament_prefix_path')
+[4.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim/share/mj_sim/hook/ament_prefix_path.ps1'
+[4.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim/share/mj_sim/hook/ament_prefix_path.dsv'
+[4.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim/share/mj_sim/hook/ament_prefix_path.sh'
+[4.466s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.467s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.470s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wyp/test/robot_learning/week2/test_week2_ws/src/out_control' with build type 'ament_python'
+[4.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('out_control', 'ament_prefix_path')
+[4.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/share/out_control/hook/ament_prefix_path.ps1'
+[4.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/share/out_control/hook/ament_prefix_path.dsv'
+[4.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/share/out_control/hook/ament_prefix_path.sh'
+[4.471s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.471s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.659s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_sim'
+[4.660s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.660s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.845s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wyp/test/robot_learning/week2/test_week2_ws/src/out_control'
+[4.846s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.846s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.268s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: check, setopt, clean, sdist, bdist_egg, bdist, compile_catalog, build_scripts, easy_install, rotate, install_egg_info, build_clib, bdist_wheel, editable_wheel, install_lib, install_scripts, develop, build_ext, build_py, build, symlink_data, install_data, install_headers, bdist_dumb, egg_info, bdist_rpm, saveopts, init_catalog, dist_info, extract_messages, update_catalog, install, alias
+[5.271s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: check, setopt, clean, sdist, bdist_egg, bdist, compile_catalog, build_scripts, easy_install, rotate, install_egg_info, build_clib, bdist_wheel, editable_wheel, install_lib, install_scripts, develop, build_ext, build_py, build, symlink_data, install_data, install_headers, bdist_dumb, egg_info, bdist_rpm, saveopts, init_catalog, dist_info, extract_messages, update_catalog, install, alias
+[5.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_sim': CMAKE_PREFIX_PATH=/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces:/home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_interfaces/install/mj_interfaces:/home/wyp/test/robot_learning/week2/robot_ws/install/robot_interfaces:/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces CONDA_PROMPT_MODIFIER=(robopy) LD_LIBRARY_PATH=/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib:/home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_interfaces/install/mj_interfaces/lib:/home/wyp/test/robot_learning/week2/robot_ws/install/robot_interfaces/lib:/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_sim/prefix_override:/home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_interfaces/install/mj_interfaces/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/robot_ws/install/robot_interfaces/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /home/wyp/miniconda3/envs/robopy/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mj_sim build --build-base /home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_sim/build install --record /home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_sim/install.log --install-scripts $base/lib/mj_sim --single-version-externally-managed install_data
+[5.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wyp/test/robot_learning/week2/test_week2_ws/src/out_control': CMAKE_PREFIX_PATH=/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces:/home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_interfaces/install/mj_interfaces:/home/wyp/test/robot_learning/week2/robot_ws/install/robot_interfaces:/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces CONDA_PROMPT_MODIFIER=(robopy) LD_LIBRARY_PATH=/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib:/home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_interfaces/install/mj_interfaces/lib:/home/wyp/test/robot_learning/week2/robot_ws/install/robot_interfaces/lib:/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/wyp/test/robot_learning/week2/test_week2_ws/build/out_control/prefix_override:/home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_interfaces/install/mj_interfaces/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/robot_ws/install/robot_interfaces/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /home/wyp/miniconda3/envs/robopy/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/out_control build --build-base /home/wyp/test/robot_learning/week2/test_week2_ws/build/out_control/build install --record /home/wyp/test/robot_learning/week2/test_week2_ws/build/out_control/install.log --install-scripts $base/lib/out_control --single-version-externally-managed install_data
+[5.760s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim' for CMake module files
+[5.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_sim' returned '0': CMAKE_PREFIX_PATH=/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces:/home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_interfaces/install/mj_interfaces:/home/wyp/test/robot_learning/week2/robot_ws/install/robot_interfaces:/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces CONDA_PROMPT_MODIFIER=(robopy) LD_LIBRARY_PATH=/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib:/home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_interfaces/install/mj_interfaces/lib:/home/wyp/test/robot_learning/week2/robot_ws/install/robot_interfaces/lib:/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_sim/prefix_override:/home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_interfaces/install/mj_interfaces/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/robot_ws/install/robot_interfaces/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /home/wyp/miniconda3/envs/robopy/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mj_sim build --build-base /home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_sim/build install --record /home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_sim/install.log --install-scripts $base/lib/mj_sim --single-version-externally-managed install_data
+[5.761s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim' for CMake config files
+[5.761s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim/lib'
+[5.761s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim/bin'
+[5.761s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim/lib/pkgconfig/mj_sim.pc'
+[5.761s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim/lib/python3.10/site-packages'
+[5.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('mj_sim', 'pythonpath')
+[5.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim/share/mj_sim/hook/pythonpath.ps1'
+[5.762s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim/share/mj_sim/hook/pythonpath.dsv'
+[5.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim/share/mj_sim/hook/pythonpath.sh'
+[5.763s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim/bin'
+[5.763s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mj_sim)
+[5.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim/share/mj_sim/package.ps1'
+[5.764s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim/share/mj_sim/package.dsv'
+[5.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim/share/mj_sim/package.sh'
+[5.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim/share/mj_sim/package.bash'
+[5.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim/share/mj_sim/package.zsh'
+[5.765s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim/share/colcon-core/packages/mj_sim)
+[5.768s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control' for CMake module files
+[5.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wyp/test/robot_learning/week2/test_week2_ws/src/out_control' returned '0': CMAKE_PREFIX_PATH=/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces:/home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_interfaces/install/mj_interfaces:/home/wyp/test/robot_learning/week2/robot_ws/install/robot_interfaces:/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces CONDA_PROMPT_MODIFIER=(robopy) LD_LIBRARY_PATH=/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib:/home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_interfaces/install/mj_interfaces/lib:/home/wyp/test/robot_learning/week2/robot_ws/install/robot_interfaces/lib:/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/wyp/test/robot_learning/week2/test_week2_ws/build/out_control/prefix_override:/home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_interfaces/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/test_week2_ws/install/mj_sim/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_interfaces/install/mj_interfaces/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/robot_ws/install/mujoco_pub/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/robot_ws/install/robot_interfaces/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/sev_ws/install/py_service/lib/python3.10/site-packages:/home/wyp/test/robot_learning/week2/sev_ws/install/detect_interfaces/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /home/wyp/miniconda3/envs/robopy/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/out_control build --build-base /home/wyp/test/robot_learning/week2/test_week2_ws/build/out_control/build install --record /home/wyp/test/robot_learning/week2/test_week2_ws/build/out_control/install.log --install-scripts $base/lib/out_control --single-version-externally-managed install_data
+[5.769s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control' for CMake config files
+[5.769s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/lib'
+[5.769s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/bin'
+[5.770s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/lib/pkgconfig/out_control.pc'
+[5.770s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/lib/python3.10/site-packages'
+[5.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('out_control', 'pythonpath')
+[5.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/share/out_control/hook/pythonpath.ps1'
+[5.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/share/out_control/hook/pythonpath.dsv'
+[5.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/share/out_control/hook/pythonpath.sh'
+[5.771s] Level 1:colcon.colcon_core.environment:checking '/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/bin'
+[5.771s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(out_control)
+[5.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/share/out_control/package.ps1'
+[5.772s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/share/out_control/package.dsv'
+[5.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/share/out_control/package.sh'
+[5.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/share/out_control/package.bash'
+[5.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/share/out_control/package.zsh'
+[5.773s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/share/colcon-core/packages/out_control)
+[5.774s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.774s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.774s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.774s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.776s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[5.776s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.776s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.776s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify_send'
+[5.795s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.795s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wyp/test/robot_learning/week2/test_week2_ws/install/local_setup.ps1'
+[5.796s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wyp/test/robot_learning/week2/test_week2_ws/install/_local_setup_util_ps1.py'
+[5.797s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wyp/test/robot_learning/week2/test_week2_ws/install/setup.ps1'
+[5.799s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wyp/test/robot_learning/week2/test_week2_ws/install/local_setup.sh'
+[5.799s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wyp/test/robot_learning/week2/test_week2_ws/install/_local_setup_util_sh.py'
+[5.800s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wyp/test/robot_learning/week2/test_week2_ws/install/setup.sh'
+[5.801s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wyp/test/robot_learning/week2/test_week2_ws/install/local_setup.bash'
+[5.802s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wyp/test/robot_learning/week2/test_week2_ws/install/setup.bash'
+[5.803s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wyp/test/robot_learning/week2/test_week2_ws/install/local_setup.zsh'
+[5.804s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wyp/test/robot_learning/week2/test_week2_ws/install/setup.zsh'

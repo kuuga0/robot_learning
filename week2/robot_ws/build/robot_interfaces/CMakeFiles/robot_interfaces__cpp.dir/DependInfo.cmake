@@ -16,6 +16,11 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/msg/detail/robot_status__struct.hpp" "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/msg/robot_status.hpp"
   "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/msg/detail/robot_status__traits.hpp" "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/msg/robot_status.hpp"
   "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/msg/detail/robot_status__type_support.hpp" "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/msg/robot_status.hpp"
+  "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/srv/detail/torque_set__builder.hpp" "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/msg/robot_status.hpp"
+  "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/srv/detail/torque_set__struct.hpp" "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/msg/robot_status.hpp"
+  "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/srv/detail/torque_set__traits.hpp" "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/msg/robot_status.hpp"
+  "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/srv/detail/torque_set__type_support.hpp" "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/msg/robot_status.hpp"
+  "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/srv/torque_set.hpp" "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/msg/robot_status.hpp"
   )
 
 

@@ -5,6 +5,9 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/robot_interfaces/msg/__init__.py"
   "../rosidl_generator_py/robot_interfaces/msg/_robot_status.py"
   "../rosidl_generator_py/robot_interfaces/msg/_robot_status_s.c"
+  "../rosidl_generator_py/robot_interfaces/srv/__init__.py"
+  "../rosidl_generator_py/robot_interfaces/srv/_torque_set.py"
+  "../rosidl_generator_py/robot_interfaces/srv/_torque_set_s.c"
   "CMakeFiles/robot_interfaces__py"
 )
 

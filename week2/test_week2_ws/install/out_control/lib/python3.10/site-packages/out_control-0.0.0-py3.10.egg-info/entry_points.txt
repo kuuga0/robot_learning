@@ -1,0 +1,4 @@
+[console_scripts]
+listener_node = out_control.listener:main
+mj_client_node = out_control.mj_client:main
+mj_param_node = out_control.mj_param:main

@@ -7,9 +7,13 @@ import numpy as np
 class Robot(Node):
     def __init__(self, node_name:str):
         super().__init__(node_name)
+        self.declare_parameter('xml_path', '/home/wyp/test/robot_learning/week1/ip.xml')
+        self.declare_parameter('time_step', 0.01)
         self.model = mujoco.MjModel.from_xml_path(
-            '/home/wyp/test/robot_learning/week1/ip.xml')
+            self.get_parameter('xml_path').value)
+        self.model.opt.timestep = self.get_parameter('time_step').value
         self.data = mujoco.MjData(self.model)
+        self.get_logger().info(f'已加载模型: {self.get_parameter("xml_path").value}, 时间步长: {self.model.opt.timestep}')
         self.status_pub = self.create_publisher(RobotStatus, 'robo_status', 10)
         self.timer = self.create_timer(0.01, self.callback)
         self.step = 0

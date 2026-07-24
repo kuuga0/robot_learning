@@ -1,4 +1,4 @@
-#!/home/wyp/miniconda3/envs/robopy/bin/python3
+#!/home/wyp/miniconda3/envs/robopy/bin/python
 # EASY-INSTALL-ENTRY-SCRIPT: 'mujoco-pub==0.0.0','console_scripts','robot_ip'
 import re
 import sys

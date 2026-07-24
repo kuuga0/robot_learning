@@ -1,0 +1,7 @@
+{
+  "package_name": "mj_interfaces",
+  "non_idl_tuples": [
+    "/home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_interfaces:msg/IpInterface.msg",
+    "/home/wyp/test/robot_learning/week2/test_week2_ws/src/mj_interfaces:srv/TorqueSrv.srv"
+  ]
+}

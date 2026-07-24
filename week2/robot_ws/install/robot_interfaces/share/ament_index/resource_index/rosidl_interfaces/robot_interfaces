@@ -1,2 +1,6 @@
 msg/RobotStatus.idl
 msg/RobotStatus.msg
+srv/TorqueSet.idl
+srv/TorqueSet.srv
+srv/TorqueSet_Request.msg
+srv/TorqueSet_Response.msg

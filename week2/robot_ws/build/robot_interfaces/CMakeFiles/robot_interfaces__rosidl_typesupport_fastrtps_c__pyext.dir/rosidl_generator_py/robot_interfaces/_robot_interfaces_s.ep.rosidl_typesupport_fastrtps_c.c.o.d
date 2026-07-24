@@ -231,4 +231,7 @@ CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_gen
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.h \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float64__struct.h \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/bool__struct.h \
- /home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_c/robot_interfaces/msg/detail/robot_status__functions.h
+ /home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_c/robot_interfaces/msg/detail/robot_status__functions.h \
+ /home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_c/robot_interfaces/srv/detail/torque_set__type_support.h \
+ /home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_c/robot_interfaces/srv/detail/torque_set__struct.h \
+ /home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_c/robot_interfaces/srv/detail/torque_set__functions.h

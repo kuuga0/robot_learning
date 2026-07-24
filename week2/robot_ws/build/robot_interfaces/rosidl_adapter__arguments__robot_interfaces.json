@@ -1,6 +1,7 @@
 {
   "package_name": "robot_interfaces",
   "non_idl_tuples": [
-    "/home/wyp/test/robot_learning/week2/robot_ws/src/robot_interfaces:msg/RobotStatus.msg"
+    "/home/wyp/test/robot_learning/week2/robot_ws/src/robot_interfaces:msg/RobotStatus.msg",
+    "/home/wyp/test/robot_learning/week2/robot_ws/src/robot_interfaces:srv/TorqueSet.srv"
   ]
 }

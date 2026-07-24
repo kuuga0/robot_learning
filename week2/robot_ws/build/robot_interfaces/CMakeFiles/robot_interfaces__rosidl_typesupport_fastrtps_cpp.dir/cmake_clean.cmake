@@ -1,10 +1,14 @@
 file(REMOVE_RECURSE
   "CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o"
   "CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o.d"
+  "CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/srv/detail/dds_fastrtps/torque_set__type_support.cpp.o"
+  "CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/srv/detail/dds_fastrtps/torque_set__type_support.cpp.o.d"
   "librobot_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
   "librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so"
   "rosidl_typesupport_fastrtps_cpp/robot_interfaces/msg/detail/dds_fastrtps/robot_status__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/robot_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/robot_interfaces/srv/detail/dds_fastrtps/torque_set__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/robot_interfaces/srv/detail/torque_set__rosidl_typesupport_fastrtps_cpp.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

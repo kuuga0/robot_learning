@@ -17,6 +17,9 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/msg/__init__.py" "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/msg/_robot_status.py" "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/msg/_robot_status_s.c" "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/srv/__init__.py" "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/srv/_torque_set.py" "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/srv/_torque_set_s.c" "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

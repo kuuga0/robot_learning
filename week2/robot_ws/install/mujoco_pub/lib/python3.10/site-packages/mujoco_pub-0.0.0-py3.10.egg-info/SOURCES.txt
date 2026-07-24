@@ -9,7 +9,9 @@ setup.py
 ../../build/mujoco_pub/mujoco_pub.egg-info/requires.txt
 ../../build/mujoco_pub/mujoco_pub.egg-info/top_level.txt
 ../../build/mujoco_pub/mujoco_pub.egg-info/zip-safe
+launch/mujocoparam.launch.py
 mujoco_pub/__init__.py
+mujoco_pub/mujoco_srv.py
 mujoco_pub/pub_node.py
 resource/mujoco_pub
 test/test_copyright.py

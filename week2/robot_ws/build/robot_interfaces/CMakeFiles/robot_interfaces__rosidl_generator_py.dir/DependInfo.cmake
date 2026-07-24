@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/msg/_robot_status_s.c" "CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/msg/_robot_status_s.c.o" "gcc" "CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/msg/_robot_status_s.c.o.d"
+  "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_py/robot_interfaces/srv/_torque_set_s.c" "CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_torque_set_s.c.o" "gcc" "CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/srv/_torque_set_s.c.o.d"
   )
 
 # Targets to which this target links.

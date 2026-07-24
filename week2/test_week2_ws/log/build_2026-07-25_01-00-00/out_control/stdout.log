@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/out_control/out_control.egg-info
+writing ../../build/out_control/out_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/out_control/out_control.egg-info/dependency_links.txt
+writing entry points to ../../build/out_control/out_control.egg-info/entry_points.txt
+writing requirements to ../../build/out_control/out_control.egg-info/requires.txt
+writing top-level names to ../../build/out_control/out_control.egg-info/top_level.txt
+writing manifest file '../../build/out_control/out_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/out_control/out_control.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/out_control/out_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wyp/test/robot_learning/week2/test_week2_ws/build/out_control/build/lib/out_control
+copying out_control/listener.py -> /home/wyp/test/robot_learning/week2/test_week2_ws/build/out_control/build/lib/out_control
+copying out_control/mj_param.py -> /home/wyp/test/robot_learning/week2/test_week2_ws/build/out_control/build/lib/out_control
+copying out_control/mj_client.py -> /home/wyp/test/robot_learning/week2/test_week2_ws/build/out_control/build/lib/out_control
+copying out_control/__init__.py -> /home/wyp/test/robot_learning/week2/test_week2_ws/build/out_control/build/lib/out_control
+running install
+running install_lib
+creating /home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/lib/python3.10/site-packages/out_control
+copying /home/wyp/test/robot_learning/week2/test_week2_ws/build/out_control/build/lib/out_control/listener.py -> /home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/lib/python3.10/site-packages/out_control
+copying /home/wyp/test/robot_learning/week2/test_week2_ws/build/out_control/build/lib/out_control/mj_param.py -> /home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/lib/python3.10/site-packages/out_control
+copying /home/wyp/test/robot_learning/week2/test_week2_ws/build/out_control/build/lib/out_control/mj_client.py -> /home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/lib/python3.10/site-packages/out_control
+copying /home/wyp/test/robot_learning/week2/test_week2_ws/build/out_control/build/lib/out_control/__init__.py -> /home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/lib/python3.10/site-packages/out_control
+byte-compiling /home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/lib/python3.10/site-packages/out_control/listener.py to listener.cpython-310.pyc
+byte-compiling /home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/lib/python3.10/site-packages/out_control/mj_param.py to mj_param.cpython-310.pyc
+byte-compiling /home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/lib/python3.10/site-packages/out_control/mj_client.py to mj_client.cpython-310.pyc
+byte-compiling /home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/lib/python3.10/site-packages/out_control/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/share/ament_index/resource_index/packages
+copying resource/out_control -> /home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/share/out_control
+running install_egg_info
+Copying ../../build/out_control/out_control.egg-info to /home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/lib/python3.10/site-packages/out_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener_node script to /home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/lib/out_control
+Installing mj_client_node script to /home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/lib/out_control
+Installing mj_param_node script to /home/wyp/test/robot_learning/week2/test_week2_ws/install/out_control/lib/out_control
+writing list of installed files to '/home/wyp/test/robot_learning/week2/test_week2_ws/build/out_control/install.log'

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "mj_interfaces__rs",
+		"source" : "/home/wyp/test/robot_learning/week2/test_week2_ws/build/mj_interfaces/mj_interfaces__rs"
+	}
+}

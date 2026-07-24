@@ -71,6 +71,11 @@ CMakeFiles/robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/msg/deta
 CMakeFiles/robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/msg/detail/robot_status__struct.hpp
 CMakeFiles/robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/msg/detail/robot_status__traits.hpp
 CMakeFiles/robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/msg/detail/robot_status__type_support.hpp
+CMakeFiles/robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/srv/torque_set.hpp
+CMakeFiles/robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/srv/detail/torque_set__builder.hpp
+CMakeFiles/robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/srv/detail/torque_set__struct.hpp
+CMakeFiles/robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/srv/detail/torque_set__traits.hpp
+CMakeFiles/robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/srv/detail/torque_set__type_support.hpp
 CMakeFiles/robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/robot_interfaces/msg/robot_status.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -89,6 +94,7 @@ rosidl_generator_cpp/robot_interfaces/msg/robot_status.hpp: /opt/ros/humble/shar
 rosidl_generator_cpp/robot_interfaces/msg/robot_status.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/robot_interfaces/msg/robot_status.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/robot_interfaces/msg/robot_status.hpp: rosidl_adapter/robot_interfaces/msg/RobotStatus.idl
+rosidl_generator_cpp/robot_interfaces/msg/robot_status.hpp: rosidl_adapter/robot_interfaces/srv/TorqueSet.idl
 rosidl_generator_cpp/robot_interfaces/msg/robot_status.hpp: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 rosidl_generator_cpp/robot_interfaces/msg/robot_status.hpp: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 rosidl_generator_cpp/robot_interfaces/msg/robot_status.hpp: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -168,12 +174,32 @@ rosidl_generator_cpp/robot_interfaces/msg/detail/robot_status__traits.hpp: rosid
 rosidl_generator_cpp/robot_interfaces/msg/detail/robot_status__type_support.hpp: rosidl_generator_cpp/robot_interfaces/msg/robot_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/robot_interfaces/msg/detail/robot_status__type_support.hpp
 
+rosidl_generator_cpp/robot_interfaces/srv/torque_set.hpp: rosidl_generator_cpp/robot_interfaces/msg/robot_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/robot_interfaces/srv/torque_set.hpp
+
+rosidl_generator_cpp/robot_interfaces/srv/detail/torque_set__builder.hpp: rosidl_generator_cpp/robot_interfaces/msg/robot_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/robot_interfaces/srv/detail/torque_set__builder.hpp
+
+rosidl_generator_cpp/robot_interfaces/srv/detail/torque_set__struct.hpp: rosidl_generator_cpp/robot_interfaces/msg/robot_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/robot_interfaces/srv/detail/torque_set__struct.hpp
+
+rosidl_generator_cpp/robot_interfaces/srv/detail/torque_set__traits.hpp: rosidl_generator_cpp/robot_interfaces/msg/robot_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/robot_interfaces/srv/detail/torque_set__traits.hpp
+
+rosidl_generator_cpp/robot_interfaces/srv/detail/torque_set__type_support.hpp: rosidl_generator_cpp/robot_interfaces/msg/robot_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/robot_interfaces/srv/detail/torque_set__type_support.hpp
+
 robot_interfaces__cpp: CMakeFiles/robot_interfaces__cpp
 robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/msg/detail/robot_status__builder.hpp
 robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/msg/detail/robot_status__struct.hpp
 robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/msg/detail/robot_status__traits.hpp
 robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/msg/detail/robot_status__type_support.hpp
 robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/msg/robot_status.hpp
+robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/srv/detail/torque_set__builder.hpp
+robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/srv/detail/torque_set__struct.hpp
+robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/srv/detail/torque_set__traits.hpp
+robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/srv/detail/torque_set__type_support.hpp
+robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/srv/torque_set.hpp
 robot_interfaces__cpp: CMakeFiles/robot_interfaces__cpp.dir/build.make
 .PHONY : robot_interfaces__cpp
 

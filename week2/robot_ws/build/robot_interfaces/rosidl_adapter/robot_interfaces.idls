@@ -1,1 +1,2 @@
 /home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_adapter/robot_interfaces:msg/RobotStatus.idl
+/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_adapter/robot_interfaces:srv/TorqueSet.idl

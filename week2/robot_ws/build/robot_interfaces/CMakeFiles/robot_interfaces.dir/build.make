@@ -67,6 +67,9 @@ include CMakeFiles/robot_interfaces.dir/compiler_depend.make
 include CMakeFiles/robot_interfaces.dir/progress.make
 
 CMakeFiles/robot_interfaces: /home/wyp/test/robot_learning/week2/robot_ws/src/robot_interfaces/msg/RobotStatus.msg
+CMakeFiles/robot_interfaces: /home/wyp/test/robot_learning/week2/robot_ws/src/robot_interfaces/srv/TorqueSet.srv
+CMakeFiles/robot_interfaces: rosidl_cmake/srv/TorqueSet_Request.msg
+CMakeFiles/robot_interfaces: rosidl_cmake/srv/TorqueSet_Response.msg
 CMakeFiles/robot_interfaces: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 CMakeFiles/robot_interfaces: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 CMakeFiles/robot_interfaces: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl

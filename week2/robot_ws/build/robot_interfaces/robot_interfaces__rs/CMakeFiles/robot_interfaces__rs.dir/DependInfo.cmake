@@ -16,6 +16,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_rs/robot_interfaces/rust/build.rs" "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_rs/robot_interfaces/rust/src/lib.rs"
   "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_rs/robot_interfaces/rust/src/msg.rs" "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_rs/robot_interfaces/rust/src/lib.rs"
   "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_rs/robot_interfaces/rust/src/msg/rmw.rs" "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_rs/robot_interfaces/rust/src/lib.rs"
+  "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_rs/robot_interfaces/rust/src/srv.rs" "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_rs/robot_interfaces/rust/src/lib.rs"
+  "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_rs/robot_interfaces/rust/src/srv/rmw.rs" "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_generator_rs/robot_interfaces/rust/src/lib.rs"
   )
 
 

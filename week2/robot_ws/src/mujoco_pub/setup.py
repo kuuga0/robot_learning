@@ -1,4 +1,5 @@
 from setuptools import find_packages, setup
+from glob import glob
 
 package_name = 'mujoco_pub'
 
@@ -10,6 +11,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name + '/launch', glob('launch/*.launch.py')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -25,6 +27,7 @@ setup(
     entry_points={
         'console_scripts': [
             'robot_ip = mujoco_pub.pub_node:main',
+            'torque_set_service = mujoco_pub.mujoco_srv:main',
         ],
     },
 )

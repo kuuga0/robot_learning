@@ -368,7 +368,23 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_interfaces/srv" TYPE FILE FILES "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_adapter/robot_interfaces/srv/TorqueSet.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_interfaces/msg" TYPE FILE FILES "/home/wyp/test/robot_learning/week2/robot_ws/src/robot_interfaces/msg/RobotStatus.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_interfaces/srv" TYPE FILE FILES "/home/wyp/test/robot_learning/week2/robot_ws/src/robot_interfaces/srv/TorqueSet.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_interfaces/srv" TYPE FILE FILES "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_cmake/srv/TorqueSet_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_interfaces/srv" TYPE FILE FILES "/home/wyp/test/robot_learning/week2/robot_ws/build/robot_interfaces/rosidl_cmake/srv/TorqueSet_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

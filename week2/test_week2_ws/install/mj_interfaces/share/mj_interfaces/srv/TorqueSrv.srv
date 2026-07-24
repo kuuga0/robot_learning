@@ -1,0 +1,6 @@
+geometry_msgs/Vector3 torque   # 具体的值
+
+---
+
+bool success    # 是否成功
+string message  # 消息

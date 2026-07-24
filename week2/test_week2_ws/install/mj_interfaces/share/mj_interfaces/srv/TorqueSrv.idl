@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mj_interfaces/srv/TorqueSrv.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+
+module mj_interfaces {
+  module srv {
+    struct TorqueSrv_Request {
+      @verbatim (language="comment", text=
+        "具体的值")
+      geometry_msgs::msg::Vector3 torque;
+    };
+    struct TorqueSrv_Response {
+      @verbatim (language="comment", text=
+        "是否成功")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "消息")
+      string message;
+    };
+  };
+};

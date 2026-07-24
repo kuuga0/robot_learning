@@ -54,7 +54,7 @@ endif()
 add_library(robot_interfaces::robot_interfaces__rosidl_generator_py SHARED IMPORTED)
 
 set_target_properties(robot_interfaces::robot_interfaces__rosidl_generator_py PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/_core/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/wyp/miniconda3/envs/robopy/lib/python3.10/site-packages/numpy/core/include"
   INTERFACE_LINK_LIBRARIES "robot_interfaces::robot_interfaces__rosidl_generator_c;/home/wyp/miniconda3/envs/robopy/lib/libpython3.10.so;robot_interfaces::robot_interfaces__rosidl_typesupport_c;std_msgs::std_msgs__rosidl_generator_py;builtin_interfaces::builtin_interfaces__rosidl_generator_py;geometry_msgs::geometry_msgs__rosidl_generator_py"
 )
 
